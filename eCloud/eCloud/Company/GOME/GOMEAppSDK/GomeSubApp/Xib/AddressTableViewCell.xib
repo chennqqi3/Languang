@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="125" id="KGk-i7-Jjw" customClass="AddressTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="444" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="444" height="124.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_地址图标.png" translatesAutoresizingMaskIntoConstraints="NO" id="1NS-Bu-pTE">
+                        <rect key="frame" x="6" y="54" width="11" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="11" id="dRo-46-rA4"/>
+                            <constraint firstAttribute="height" constant="16" id="sEb-Pp-RV8"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_选择地址.png" translatesAutoresizingMaskIntoConstraints="NO" id="YcM-aU-IjN">
+                        <rect key="frame" x="424" y="57.5" width="14" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="GWQ-Fa-dAO"/>
+                            <constraint firstAttribute="width" constant="14" id="RJg-cY-M7A"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKT-F6-1vw">
+                        <rect key="frame" x="21" y="62.5" width="399" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1NS-Bu-pTE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="10K-qS-lQG"/>
+                    <constraint firstItem="IKT-F6-1vw" firstAttribute="leading" secondItem="1NS-Bu-pTE" secondAttribute="trailing" constant="4" id="5Cb-MZ-rM6"/>
+                    <constraint firstItem="IKT-F6-1vw" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="J6P-Uc-dFQ"/>
+                    <constraint firstItem="1NS-Bu-pTE" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="OR7-fF-yHs"/>
+                    <constraint firstItem="YcM-aU-IjN" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Sb2-il-ieZ"/>
+                    <constraint firstAttribute="trailing" secondItem="YcM-aU-IjN" secondAttribute="trailing" constant="6" id="eNh-Md-dyT"/>
+                    <constraint firstItem="YcM-aU-IjN" firstAttribute="leading" secondItem="IKT-F6-1vw" secondAttribute="trailing" constant="4" id="idn-UB-0IU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="icon_check" destination="YcM-aU-IjN" id="jtQ-8n-wsg"/>
+                <outlet property="icon_location" destination="1NS-Bu-pTE" id="3j2-JM-zn5"/>
+                <outlet property="strLabel" destination="IKT-F6-1vw" id="7es-9Z-Mc6"/>
+            </connections>
+            <point key="canvasLocation" x="54" y="143.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_地址图标.png" width="10" height="15"/>
+        <image name="icon_选择地址.png" width="13" height="9"/>
+    </resources>
+</document>

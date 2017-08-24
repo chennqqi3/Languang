@@ -1,0 +1,20 @@
+/* 
+  AppLocalized.strings
+  eCloud
+
+  Created by Alex L on 16/12/1.
+  Copyright © 2016年  lyong. All rights reserved.
+
+
+"main_my" = "Work";
+"main_settings" = "I";
+
+"contact_allReaded" = "Clear New Message Tips";
+
+"select_all" = "Select All";
+"un_select_all" = "UnSelect All";
+*/
+"main_my" = "world";
+"main_chats" = "Msg";
+"main_settings"= "work";
+//"main_works"= "work";

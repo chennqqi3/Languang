@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3004146B-8E95-48F5-B757-2ECDEAB561E3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : "iPhone2017\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HUAXIABundle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HUAXIABundle\/HUAXIABundle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn.sxit.com.cn:4002\/ecloud",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937"
+    }
+  ]
+}

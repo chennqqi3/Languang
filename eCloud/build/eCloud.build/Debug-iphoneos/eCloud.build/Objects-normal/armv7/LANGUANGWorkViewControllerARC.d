@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Company/LANGUANG/Work/controller/LANGUANGWorkViewControllerARC.m \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Company/LANGUANG/Work/controller/LANGUANGWorkViewControllerARC.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/UserDefaults.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/StringUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Org/model/Emp.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/config/ServerConfig.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/LogUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Company/LANGUANG/Work/model/LANGUANGWorkModelARC.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/IOSSystemDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/UIAdapterUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/AppPlatform/database/APPPlatformDOA.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/database/eCloud.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/database/LCLSqlite.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/database/sqlite/sqlite3.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Org/cell/CustomMyCell.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/AppPlatform/model/APPListModel.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/NotificationDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/OpenCtx/IMSDK/define/OpenNotificationDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Company/LANGUANG/Meeting/controller/LANGUANGMeetingListViewControllerARC.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Company/LANGUANG/Agent/controller/LANGUANGAgentViewControllerARC.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/IMYWebView/IMYWebView.h

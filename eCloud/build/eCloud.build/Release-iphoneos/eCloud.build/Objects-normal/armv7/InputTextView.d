@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/view/InputTextView.m \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/view/InputTextView.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/controller/talkSessionViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequest.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestConfig.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIProgressDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASICacheDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/AudioRecorder/CL_VoiceEngine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/AudioRecorder/CL_AudioRecorder.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASINetworkQueue.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/amrToWav/amrToWavMothod.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIFormDataRequest.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ImagePicker/PictureManager.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ImagePicker/ELCImagePickerController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ImagePicker/ELCAssetTablePicker.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryPhotoView.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryPhoto.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/ConvRecord.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/FileAssistant/controller/LocaLFilesViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/FileAssistant/controller/FileListViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/DropUpMenu/IM_MenuView.h

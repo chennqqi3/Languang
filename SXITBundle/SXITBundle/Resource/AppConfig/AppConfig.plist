@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ServerConfig</key>
+	<dict>
+		<key>PrimaryServerUrl</key>
+		<string>119.29.7.204</string>
+		<key>PrimaryServerIp</key>
+		<string>119.29.7.204</string>
+		<key>PrimaryServerPort</key>
+		<real>9002</real>
+		<key>SecondServerUrl</key>
+		<string>119.29.7.204</string>
+		<key>SecondServerIP</key>
+		<string>119.29.7.204</string>
+		<key>SecondServerPort</key>
+		<real>9002</real>
+		<key>OtherServerUrl</key>
+		<string>119.29.7.204</string>
+		<key>OtherServerIP</key>
+		<string>119.29.7.204</string>
+		<key>OtherServerPort</key>
+		<real>51028</real>
+		<key>FileServerUrl</key>
+		<string>119.29.7.204</string>
+		<key>FileServerPort</key>
+		<integer>8080</integer>
+		<key>FileServerPath</key>
+		<string>/</string>
+		<key>NeedConnectByIpIfGPRS</key>
+		<false/>
+	</dict>
+	<key>Engine</key>
+	<dict>
+		<key>NeedEncryptDB</key>
+		<true/>
+		<key>MyViewModeType</key>
+		<integer>1</integer>
+		<key>SupportReceiptMsg</key>
+		<true/>
+		<key>SearchTextMinLen</key>
+		<integer>1</integer>
+		<key>SupportVideo</key>
+		<true/>
+		<key>SupportRecallMsg</key>
+		<true/>
+	</dict>
+	<key>OrgDefine</key>
+	<dict>
+		<key>SearchEmpByLetter</key>
+		<integer>7</integer>
+		<key>NeedCreateEmpPinyinByEmpName</key>
+		<true/>
+		<key>NeedGetEmpSimplePinyinToMemory</key>
+		<true/>
+		<key>NeedGetEmpAllPinyinToMemory</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

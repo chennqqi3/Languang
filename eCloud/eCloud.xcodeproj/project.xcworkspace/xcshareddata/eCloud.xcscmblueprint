@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4074",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4074" : {
+
+    },
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++2529" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4074" : 9223372036854775807,
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++2529" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "70475799-7E30-457C-A1EF-2716CFA55F83",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4074" : "AGENT_WANDA\/",
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++2529" : "%E7%A2%A7%E6%A1%82%E5%9B%AD\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "eCloud",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "eCloud\/eCloud.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/ns17470318.imwork.net:4002\/ecloud",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++2529"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/ns17470318.imwork.net:4002\/ecloud",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4074"
+    }
+  ]
+}

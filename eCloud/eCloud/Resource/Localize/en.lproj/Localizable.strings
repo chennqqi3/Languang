@@ -1,0 +1,855 @@
+/*
+ Localizable.strings
+ eCloud
+ 
+ Created by Richard on 13-10-28.
+ Copyright (c) 2013年  lyong. All rights reserved.
+ */
+
+//============
+"check_network" = "Please Check the Network";
+"user_is_offline" = "User is offline";
+"user_is_not_exist" = "user is not exist";
+
+"request_timeout" = "Request Timeout";
+
+"later" = "later";
+
+"I_know" = "I know";
+"confirm" = "OK";
+"cancel" = "Cancel";
+"delete" = "delete";
+"save" = "Save";
+"hint" = "Hint";
+"add" = "Add";
+"searching" = "Searching...";
+"search_tip" = "Please enter at least two keywords";
+"no_search_result" = "No matching search results";
+"search_start_tip" = "Here you can search: Department, discussion group, colleagues";
+"dept_no_person_tip" = "There is no one in the Department for the time being";
+
+"save_image" = "Save Image";
+"send_to_someone" = "Send to Friend";
+
+"video" = "Video";
+//===========登录
+
+"logining" = "Logging...";
+"password_is_null" = "Password can not be empty";
+"account_is_null" = "The account is empty";
+"sso_auth_fail" = "SSO Failure";
+
+"account" = "Account";
+"password" = "Password";
+"login" = "login";
+"input_account" = "account";
+"input_password" = "Enter password";
+"login_timeout" = "Login timeout";
+"login_fail" = "Login Failed";
+"login_cmd_send_error" = "Login Error";
+"Connection_failed" = "Connect Server Error";//"Connection failed, please check the network";
+"has_new_version" = " Has New Version";
+
+"Your_account_has_been_logged_elsewhere" = "Your account has been logged elsewhere";
+
+"org" = "Orgnization";
+
+"add_common_dept" = "Add to common dept";
+"delete_common_dept" = "Delete Common dept";
+
+"update_at_once" = "Update";
+
+//==========木棉童飞
+"kapok_fly" = "木棉童飞";
+
+//==========公众服务平台
+
+"public_service" =  "服务号";
+
+"detail_info" = "详细资料";
+
+"ps_desc_title" = "功能介绍";
+
+"ps_rcv_msg" = "接收消息";
+"ps_view_msg" = "查看消息";
+
+"flt_group" = "机组群";
+
+"schedule_helper" = "Schedule";
+
+"send" = "Send";
+
+"talk_session" = "Chats";
+
+
+"back" = "Back";
+
+
+"loading" = " loading…";
+"linking" = "link…";
+"load_error" = "网页加载失败：%@ 错误码：%d";
+
+
+//=====群组消息=====
+"set_conv_rcv_flag" = "消息免打扰";
+"set_conv_rcv_flag_error" = "设置失败";
+"please_wait" = "Wait...";
+"please_prepare" = "Prepare...";
+"confirm_to_download_file" = "Now is the mobile network，confirm to download";
+
+//======会话列表=======
+"convlist_search_tips" = "Enter the session title or member to query";
+"search_tips" = "Search";
+"search_tips " = "Search             ";
+"all_chats_macked_readed" = "All Chats macked as readed";
+"im_notice" = "Application platform notice";
+
+//=======一呼百应消息已读情况统计界面========
+"receipt_msg_read_stat_0" = "Msg Read Stat";
+"receipt_msg_read_stat_1" = "Receipt Msg List";
+
+"receipt_msg_read" = "Read";
+"receipt_msg_unread" = "Unread";
+
+"TAI_HE_receipt_msg_read" = "Read";
+"TAI_HE_receipt_msg_unread" = "Unread";
+
+"change_conv_status_to_normal_0" = "一呼百应,轻触此处切换为普通消息";
+"change_conv_status_to_normal_1" = "Receipt Msg Mode,Click To Normal Msg";
+
+"receipt_msg_tips_0" = "一呼百应";
+"receipt_msg_tips_1" = "Receipt Msg";
+
+"TAI_HE_receipt_msg_receipt_is_send" = "Receipt is Sended";
+
+"TAI_HE_receipt_msg_tips_xx_unread" = "%d unread";
+
+"receipt_msg_receipt_is_send" = "Receipt is Sended";
+"receipt_msg_send_receipt" = "Click to Send Receipt";
+
+"receipt_msg_tips_xx_unread" = "%d unread";
+"receipt_msg_group_msg_all_read" = "All Read";
+
+
+//========一呼万应===========
+"mass_send_msg" = "一呼万应";
+"mass_msg_tips" = "You will send message to %d colleague(s)";
+
+//===========权限==============
+"can_not_send_msg" = "该用户进行了权限设置，你无法与之会话";
+"can_not_see" = "%@对你设置了隐藏";
+"hide_info" = "不可见";
+
+//========@功能=========
+"someone_at_me" = "[some one @me]";
+"someone_at_you" = "%@ @You";
+
+//========搜索会话记录========
+"search_result_record_count" = "%d related messages";
+"draft" = "[Draft]";
+"include_some_one" = "Member:%@";
+"records_num_of_match" = "%d message(s) related to \“%@\”";
+"conv_records" = "Chat History";
+
+//==========消息类型==============
+"msg_type_pic" = "[Image]";
+"msg_type_record" = "[Audio]";
+"msg_type_video" = "[video]";
+"msg_type_file" = "[File]";
+"msg_type_imgtxt" = "[imgtxt]";
+"msg_type_wiki" = "[wiki]";
+"msg_type_location" = "[location]";
+"msg_type_long_msg" = "[LongMsg]";
+
+//应用平台
+"application_plaform" = "应用汇";
+
+//==========修改群组名称界面==============
+"group_name_too_long" = "The group name too long";
+
+//==========修改性别界面==============
+"sex_modify_sex" = "Modify Sex";
+"sex_male" = "male";
+"sex_female" = "female";
+
+//==========修改手机号码界面==============
+"modifyMobile_title" = "Modify Mobile";
+
+//==========修改电话界面==============
+"modifyTelephone_title" = "Modify Tel";
+
+//==========修改住宅电话界面==============
+"modifyHome_title" = "Modify Home";
+
+//==========修改紧急电话界面==============
+"modifyEmc_title" = "Modify Emergency";
+
+//==========修改邮箱界面==============
+"email_title" = "Modify Email";
+"email_address_too_long" = "邮箱地址过长";
+
+//==========修改职务界面==============
+"post_title" = "Modify Position";
+"post_too_long" = "职务最多输入10个字";
+
+//==========修改签名界面==============
+"sign_title" = "Modify signature";
+"sign_too_long" = "签名最多输入15个字";
+
+//==========修改地址界面==============
+"address_title" = "Modify Address";
+"address_too_long" = "地址过长";
+
+//==========设置界面==============
+"personal_settings" = "Personal Settings";
+"settings_settings" = "Settings";
+"settings_change_password" = "Change the password";
+"settings_gome_download_website" = "GOME_DownloadWebsite";
+"settings_download_website" = "DownloadWebsite";
+"settings_synchronous_message" = "Synchronous message";
+"settings_alert_sound" = "Sound Alert";
+"settings_alert_vibrate" = "Vibrate Alert";
+"settings_usual" = "General";
+"settings_broadcast_message" = "Broadcast";
+"settings_about" = "About";
+"settings_feedback" = "feedback";
+"settings_log_out" = "Exit to the login";
+"settings_log_out?" = "Log Out?";
+"settings_connecting_server" = "Connecting to server, please wait...";
+"settings_receiving_messages" = "receiving messages,please wait...";
+"settings_loading_organizational_structure" = "loading Organizational Structure,please wait...";
+"settings_download_guide" = "download_guide,please wait...";
+
+//==========通用设置界面==============
+"usual_usual" = "General";
+"usual_language" = "Language";
+"usual_font_size" = "Font Size";
+"usual_chat_background" = "Chat Background";
+"usual_chat_history_backup" = "Chat History Backup";
+"usual_clear_data" = "Clear Data";
+"usual_clear_cache" = "Clear Data";
+"usual_clear_chat_history" = "Clear Chat History";
+"usual_clear_button" = "clear";
+"usual_receiver_button" = "Receiver model";
+"usual_notification" = "Notifications";
+"usual_font" = "Font";
+"usual_synchronous_message" = "Synchronous message";
+"usual_roaming_message" = "Roaming message";
+"usual_failed_to_modify" = "Failed to modify";
+"usual_communication_timeout" = "Communication timeout";
+"usual_view_chat_records" = "View Chat Records";
+"usual_chat_records_delete" = "Delete this chat completely?";
+
+"usual_refresh_org_by_hand" = "Refresh contacts";
+"usual_confirm_refresh_org_by_hand" = "Refresh  Now？";
+"usual_refresh_org_by_hand_tips" = "This operation will take about 30-120 seconds, pls do this in WiFi .";
+"usual_refresh_org_by_hand_finish" = "Finished!";
+
+//==========主界面==============
+"main_my" = "Me";
+"main_chats" = "Chats";
+"main_contacts" = "Contacts";
+"main_settings"= "Settings";
+"main_found"= "found";
+"chats_search" = "Name or staff id inquiries";
+
+//==========连接界面==============
+"contact_noConnecting" = "No Connecting";
+"contact_connecting" = "Connecting";
+"contact_loading" = "Loading";
+"contact_reconnect" = "Reconnect";
+"contact_allReaded" = "All sessions mark as read";
+"contact_noConnection" = "No network connection";
+
+"contact_create_new_chat" = "New Chat";
+"contact_iRobot" = "iRobot";
+"contact_FileTransfer" = "Filetransfer";
+
+"contact_settop" = "SetTop";
+"contact_unsettop" = "UnSetTop";
+
+"contact_create_meeting" = "New Meeting";
+"scan_the_code" = "Scan Code";
+
+//==========字体大小界面==============
+"font_title" = "Font Size";
+"font_follow_system" = "Follow System";
+"font_tipstr" = "If Follow System is enabled,the message font size will follow your system setting.Set iphone's font size on Settings ->General->Font Size";
+"font_small" = "small";
+"font_medium" = "Medium";
+"font_large" = "Large";
+"font_x_large" = "X-Large";
+
+//==========选择背景图片界面==============
+"chatBackground_title" = "Chat Background";
+"chatBackground_choose" = "Choose a Wallpaper";
+"chatBackground_choose_photos" = "Choose from Photos";
+"chatBackground_take_photo" = "Take Photo";
+"chatBackground_warning" = "warning";
+"chatBackground_warning_message" = "The device does not support camera";
+
+//==========清除所有聊天记录==============
+"clear_all_message_history" = "Clear all chat history?";
+
+//==========清理存储空间界面==============
+"clearData_clear" = "clear";
+"clearData_chat_records" = "Chat Records";
+"clearData_pictures" = "Pictures";
+"clearData_files" = "Files";
+"clearData_no_need_clear" = "Don't need Clear";
+"clearData_clear_all_records" = "Clear All Records?";
+"clearData_clear_pictures" = "Clear ALL Pictures?";
+"clearData_clear_files" = "Clear All Files?";
+
+//==========个人信息界面==============
+"userInfo_userInfo" = "My Profile";
+"userInfo_profile_photo" = "Profile Photo:";
+"userInfo_name" = "Name:";
+"userInfo_sex" = "Sex:";
+"userInfo_mobile" = "Mobile:";
+"userInfo_tel" = "Tel:";
+"userInfo_home_tel" = "Home:";
+"userInfo_emc_tel" = "Emergency:";
+"userInfo_Email" = "Email:";
+"userInfo_employee_id" = "Staffid:";
+"userInfo_department" = "Dept:";
+"userInfo_position" = "Position:";
+"userInfo_signature" = "Signature:";
+"userInfo_signature_edit" = "Modify the Signature";
+
+//==========联系人详细资料界面==============
+"personInfo_details" = "Profile";
+"personInfo_employee_id" = "Staffid";
+"personInfo_department" = "Dept";
+"personInfo_position" = "Post";
+"personInfo_mobile" = "Mobile";
+"personInfo_Fax" = "Fax";
+"personInfo_tel" = "Tel";
+"personInfo_home_tel" = "Home";
+"personInfo_emc_tel" = "Emergency";
+"personInfo_Email" = "Email";
+"personInfo_address" = "Add";
+"personInfo_send_message" = "Send Message";
+"personInfo_name" = "Name";
+"personInfo_introduce" = "Introduce";
+"personInfo_sex" = "Sex";
+
+//签名
+"personInfo_signature" = "Signature";
+
+//==========新消息通知界面==============
+"notification_notification" = "Notifications";
+"notification_alert_sound" = "In-App Alert Sound";
+"notification_alert_vibrate" = "Vibrate";
+"notification_enabled" = "Enabled";
+"notification_disabled" = "Disabled";
+"notification_notification_tip" ="Enable or disable Notifications via  'Settings' -> 'Notifications' on your iPhone";
+"notification_notification_tip_sound_and_vibrator" = "Specify preference to be notified by Sound or Vibration when receiving new message";
+"notification_bulletins" = "News bulletins";
+
+//我的页面
+"me_common_contacts" = "Frequent contact";
+"me_common_departments" = "Frequent contact Dept";
+"me_custom_groups" = "My group";
+"me_ecloud_groups" = "Fixed group";
+"me_my_computer" = "My Computer";
+"me_my_organization" = "Organization";
+
+"me_file_assistant" = "My Files";//"File assistant";
+"me_schedule_assistant" = "Schedule assistant";
+"me_agent_list" = "agent list";
+"me_agent_detail" = "agent detail";
+"me_email" = "email";
+"me_common" = "common information";
+
+"me_file_tip" = "There are no files at the moment~\nYou can try sending files from your computer to your phone for storage";
+
+"me_common_contacts_tip" = "Please click the button on the top right corner to add Frequent contact";
+"me_common_departments_tip" = "Please click the button on the top right corner to add Frequent contact Dept";
+"me_loading_tip" = "Wait...";
+"me_common_contacts_remove_failure" = "Remove common contact failure";
+"me_common_contacts_remove_timeout" = "Remove common contact timeout";
+"me_common_departments_add_failure" = "Add Common Dept failure";
+"me_common_departments_add_timeout" = "Add Common Dept timeout";
+"me_common_departments_delete" = "delete";
+"me_common_departments_search" = "Enter the department inquiry";
+"me_common_departments_no_selected" = "No selected departments";
+"me_custom_groups_tip" = "Please add a custom group in the group chat info";
+"me_common_departments_select_title" = "Select Department";
+
+"me_common_departments_remove_failure" = "Remove Common Dept failure";
+"me_common_departments_remove_timeout" = "Remove Common Dept timeout";
+
+"select_custom_groups_tip" = "Select a group directly initiate a session";
+
+
+//会话页面
+"chats_talksession_right_btn_title_of_irobot" = "Knowledge Base";
+
+"chats_talksession_message_photo" = "Photo";
+"chats_talksession_message_camera" = "Camera";
+"chats_talksession_message_schedule" = "Schedule";
+"chats_talksession_message_receipt_0" = "Receipt";
+"chats_talksession_message_receipt_1" = "Receipt";
+
+"chats_talksession_message_start_conf" = "Conference";
+
+"chats_talksession_message_file" = "File";
+"chats_talksession_message_red_packet" = "RedPacket";
+"chats_talksession_message_video" = "Video";
+"chats_talksession_message_audio" = "Hold to talk";
+"chats_talksession_message_audio_click" = "Release to send";
+
+"chats_talksession_message_photo_title" = "Photo";
+"chats_talksession_message_photo_preview" = "Preview";
+"chats_talksession_message_send" = "Send";
+"chats_talksession_message_photo_maximum" = "A maximum of %i images can be selected";
+"chats_talksession_message_photo_maximum_confirm" = "OK";
+"chats_talksession_message_photo_sending" = "Sending...";
+"chats_talksession_message_photo_save" = "Save";
+"chats_talksession_message_photo_save_success" = "Save to album success";
+"chats_talksession_message_photo_save_faile" = "Pictures do not download,,save failed";
+"chats_talksession_message_photo_no_access" = "No access permissions for album, please open it in system settings";
+"chats_talksession_message_photo_downloading" = "Downloading";
+"chats_talksession_message_camera_not_support" = "The device does not support camera";
+"chats_talksession_message_camera_not_support_warning" = "Warning";
+"please_open_the_setting-privacy-photos_and_allow_the_program_open_the_photos" = "please open the setting-privacy-photos and allow the program open the photos";
+"please_open_the_setting-privacy-camera_and_allow_the_program_open_the_camera" = "please open the setting-privacy-camera and allow the program open the camera";
+"chats_talksession_message_file_title" = "Local file";
+"chats_talksession_message_file_gprs_tips" = "Currently in a mobile network environment, continue to send mobile traffic will be generated";
+"chats_talksession_message_file_selected" = "Selected";
+"chats_talksession_message_file_sending" = "Sending files...";
+"chats_talksession_message_video_list" = "Video list";
+"chats_talksession_message_video_take_video" = "Take video";
+"chats_talksession_message_video_send" = "The video is sent to the session?";
+"chats_talksession_message_video_compression" = "Video Compression \n ...";
+"chats_talksession_message_audio_cancel" = "Slide up to cancel";
+"chats_talksession_message_audio_cancel_tips" = "Release to cancel ";
+"chats_talksession_message_audio_too_short" = "Message too short";
+"second" = "%is";
+"chats_talksession_message_audio_tips" = "Audio tips";
+"chats_talksession_message_audio_tips_title" = "The maximum limit is 60 seconds recording";
+"chats_talksession_message_retransmit" = "Retransmit the message";
+"chats_talksession_message_schedule_add" = "Add schedule";
+"handset_to_speakers" = "Speaker mode";
+"handset_model" = "Handset mode";
+"cur_audio_receiver_mode_loudspeaker" = "Audio is louder speaker mode";
+
+"photo_album_access_error" = "Access to the picture library error";
+"photo_album_not_support" = "The device does not support the picture library";
+
+"file_send_max_size" = "The file size exceeds the allowed sending size";
+
+"chats_talksession_record_hint" = "Need access to your microphone \n please enable the microphone - set / privacy / microphone";
+
+"chats_talksession_record_error" = "Record Error,please resend voice";
+
+"selected_message_voice_message_cannot_be_forwarded" = "Selected message, voice message cannot be forwarded";
+"selected_news_not_download_figure_cannot_be_forwarded" = "Select news, not download figure cannot be forwarded";
+"selected_news_not_red_packet_cannot_be_forwarded" = "Select news, a red packet message cannot be forwarded";
+
+//快捷菜单
+"open_with_other_app" = "Open with other app";
+"copy" = "Copy";
+"forward" = "Forward";
+"delete" = "Delete";
+"paste" = "Paste";
+"download" = "Download";
+"collect" = "Collect";
+"menu_reply" = "Reply";
+"menu_headphone" = "Headphone";
+"menu_loudspeaker" = "Loudspeaker";
+
+"audioToTxt" = "AudioToTxt";
+"menu_more" = "More...";
+
+//提示
+"sending" = "Sending";
+"send_failure" = "Send failured";
+"sent" = "Sent";
+"sent_stop" = "Suspended";
+"copy_image" = "Copy image";
+"click_to_download" = "Download";
+"downloaded" = "Downloaded";
+"downloading" = "Downloading";
+"download_failure" = "Download failure";
+"already_collected" = "Collected";
+"video_play" = "play";
+
+//转发
+"chats_new_chat" = "New a chat";
+"chats_forward_to" = "%@(%d)";
+"saved_to_the_cloud_disk" = "Saved to the cloud disk";
+"share" = "share";
+
+//打电话快捷键
+"chats_talksession_tel" = "HP";
+"chats_talksession_mobile" = "MP";
+
+"chats_talksession_coming_soon" = "Coming Soon！";
+
+"chats_talksession_group_remove_notice" = "You have been out of the group, cannot send message";
+//==========关于界面==============
+"about_publish_date" = "The release date";
+"about_new_version" = "Latest version already";
+"about_version_hint" = "New version upgrade";
+"about_ctx" = "";// "© 2014 WANDA Group\nAll Rights Reserved";
+//"about_ctx" = "Copyright © 2016 NetSense\nAll Rights Reserved" ;
+
+//==========群组信息==============
+"chatmessage_more" = "More";
+"chatmessage_pack_up" = "Pack Up";
+"chatmessage_chat_messages" = "Chat Messages";
+"chatmessage_delete_exit" = "Delete And Leave";
+"chatmessage_long_prompt" = "Delete and exit no longer receive the group chat information";
+"chatmessage_empty_chat_record" = "Clear Chat Record";
+"chatmessage_receipt_msg_list" = "Receipt Message";
+"chatmessage_view_pictures" = "View Pictures";
+"chatmessage_file_list" = "View Files";
+
+"chatmessage_set_current_background" = "Chat Background";
+"chatmessage_groupname" = "Group Name";
+"chatmessage_set_common_group" = "Save to My group";
+"chatmessage_set_common_contact" = "Set Common Contact";
+"chatmessage_new_message_remind" = "Mute Notifications";
+
+"chatmessage_deleting" = "deleting";
+"chatmessage_delete_fail" = "Delete failed, please try again later";
+"chatmessage_delete_member_fail" = "Delete failed, please try again later";
+"chatmessage_delete_member_timeout" = "Delete member timeout";
+"chatmessage_chat_messages_d" = "Chat Messages(%d)";
+"chatmessage_exit_fail" = "Exit the group failed, please try again later";
+"chatmessage_exit_timeout" = "Exit the group timeout, please try again later";
+"chatmessage_sure_to_delete_x_chatRecord" = "Sure to delete the  chat record between you and I?";
+"chatmessage_sure_to_delete_group_chatRecord" = "Sure to delete the group's chat record?";
+
+"chatmessage_chat_set_top" = "sticky on top";
+"chatmessage_view_chat_record"="Search Chat Record";
+
+"chatmessage_view_chat_pics"="View Chat Pictures";
+"chatmessage_view_chat_files"="View Chat Files";
+
+"chatmessage_set_common_emp"="Save to Contacts";
+
+"chatmessage_no_less_than_three" = "Groups at least 3 contacts";
+
+"key_group_member_out_of_limit" = "Group member out of limit";
+
+"chatmessage_pic_chat_record"="chat pictures";
+
+//功能入口
+"chatmessage_function_entrance_receipt_msg" = "ReceiptMsg";
+"chatmessage_function_entrance_pic_msg" = "PicMsg";
+"chatmessage_function_entrance_file_msg" = "FileMsg";
+"chatmessage_function_entrance_search_msg" = "SearchMsg";
+
+//==========个人资料界面==============
+"userInfo_userInfo" = "Personal info";
+"userInfo_post" = "Post";
+"userInfo_dept" = "Dept";
+"userInfo_tel" = "Tel";
+"userInfo_mobile" = "Mobile";
+"userInfo_fax" = "Fax";
+"userInfo_duty" = "Duty";
+"userInfo_work_duty" = "Duty";
+"userInfo_email" = "Email";
+"userInfo_address" = "Add";
+"userInfo_address_and_zip_code" = "Address";
+"userInfo_upload_picture" = "Upload picture...";
+"userInfo_upload_fail" = "Upload picture failure";
+"userInfo_download_fail" = "Download picture failure";
+"userInfo_request_failed" = "The request failed";
+
+//==========ConnResult==============
+"connResult_invalidUser"="Invalid User";
+"connResult_noLogin"="No Login";
+"connResult_invalidPasswd"="Invalid Password";
+"connResult_reqtimeout"="Request Timeout";
+"connResult_forbiddenUser"="Forbidden User";
+"connResult_LoginOtherDevices"="Login Other Devices";
+"connResult_unkonwmError"="Unkown Error";
+
+//==========conn-下载组织架构提示==============
+"conn_sync_org" = "Sync Orgnization";
+"conn_download_org" = "Download Orgnization";
+"conn_dept_synchronizing" = "Sync Dept";
+"conn_emp_synchronizing" = "Sync Employee";
+"conn_save_dept" = "Save Dept";
+"conn_save_emp" = "Save Employee";
+
+
+//==========specialChoose-选择联系人界面==============
+"specialChoose_addMember_fail" = "Add member failed";
+"specialChoose_Communication_timeout" = "Communication timeout";
+"specialChoose_invitedMember_toGroup"="You invited %@ to the group chat";
+"specialChoose_addCommonContacts_fail" = "Add common contact failed";
+"specialChoose_addCommonContacts_timeout" = "Add common contact timeout";
+"specialChoose_filter" = "filter";
+"specialChoose_choose_contacts" = "Choose";
+"specialChoose_business" = "Bussiness";
+"specialChoose_level" = "Level";
+"specialChoose_region" = "Region";
+"specialChoose_contacts" = "Contacts";
+"specialChoose_filter_results" = "filter results";
+"specialChoose_no_choose_filter_condition" = "You did not select filter condition";
+"specialChoose_max_members" = "Maximum number of members of a group of %d";
+"specialChoose_max_common_contacts" = "The most Frequent contact number is%d";
+"specialChoose_choosed_contacts" = "The choosed contact(%d)";
+"specialChoose_multi_session" = "Multi Session";
+"specialChoose_request_failed" = "The request failed,please try again later";
+"specialChoose_organizational_structure" = " Organizational Structure";
+"specialChoose_recent_contact" = " Recent contacts";
+
+
+
+//==========群组通知消息==============
+"group_notify_you" = "you";
+"group_notify_big_you" = "You";
+
+"group_notify_you_invite_x_join_group" = "You invited %@ to the group chat";
+"group_notify_x_invite_y_join_group" = "%@ invited %@ to the group chat";
+"group_notify_x_invite_y_and_z_to_group" = "%@ invited you and %@ to the group chat";
+
+"group_notify_you_remove_x_from_group" = "You remove %@ from the group chat";
+"group_notify_x_remove_y_from_group" = "%@ remove %@ from the group chat";
+
+"group_notify_you_change_group_name_to_x" = "You changed the group name to \"%@\"";
+"group_notify_x_change_group_name_to_y" = "%@ changed the group name to \"%@\"";
+
+"group_notify_x_quit_group" = "%@ has quit the group chat";
+
+
+//==========创建群组返回提示==============
+"group_sure_sendTo" = "Forward to:";
+"group_groupChats_d" = "Group Chats(%d人)";
+"group_creat_group_timeout" = "Create group timeout";
+"group_creat_group_fail" = "Create group failed";
+
+//==========modifyGroupName-修改群组名称==============
+"modifyGroupName_modify_groupName"="You can modify groupname";
+"modifyGroupName_max_GropuName_words"="You can enter up to 48 characters";
+"modifyGroupName_can't_be_empty"="Can not be empty";
+"modifyGroupName_modifying"="Modifying...";
+"modifyGroupName_modify_groupName_failed"="Modify group name failed, please try again later";
+
+"modifyGroupName_modify_timeout"="Communication timeout";
+
+"modifyGroupName_GroupName_Length_too_long" = "Group name length is too long!";
+//==========日程助手==============
+"schedule_new_schedule" = "New Schedule";
+"schedule_start" = "Start Time";
+"schedule_end" = "End Time";
+"schedule_remind" = "Remind";
+"schedule_participants" = "Participants";
+"schedule_no_remind" = "No Remind";
+"schedule_on_time" = "On Time";
+"schedule_10_min" = "10 min";
+"schedule_30_min" = "30 min";
+"schedule_1_hour" = "1 hour";
+"schedule_1_day" = "1 day";
+"schedule_title" = "Please Input The Schedule Title            20words";
+"schedule_words" = "words";
+"schedule_detail" = "Please Input Schedule Detail";
+"schedule_empty" = "no title or no participants";
+"schedule_check_network" = "Please Check The Network";
+"schedule_check_date" = "Invalid Date";
+"schedule_create_succusess" = "Create Schedule Success";
+"schedule_create_fail" = "Create Schedule Fail";
+"schedule_details" = "Schedule Details";
+"schedule_eidt_details" = "Edit Details";
+"schedule_launch" = "Launch";
+"schedule_edit" = "Edit Schedule";
+"schedule_from" = "From";
+"schedule_delete" = "Delete The Schedule?";
+"schedule_yes" = "YES";
+"schedule_no" = "NO";
+"schedule_delete_fail" = "Delete The Schedule Fail";
+"schedule_modify_fail" = "Modify Schedule Fail";
+"schedule_modify_success" = "Modify Schedule Success";
+"schedule_tip" = "Schedule Reminders";
+"schedule_show" = "Schedule\n Start Time";
+"schedule_new" = "New Schedule";
+"modifyGroupName_modify_timeout"="Communication timeout";
+
+//==========时间显示==============
+"time_today" = "today";
+"time_Today" = "Today";
+"time_yesterday" = "Yesterday";
+"time_Yesterday" = "yesterday";
+"days_ago" = " days ago";
+"months_ago" = " months ago";
+"years_ago" = " years ago";
+
+//=============获取用户资料界面========
+"personinfo_get_user_info_timeout" = "get user info timeout";
+"personinfo_get_user_info_fail" = "get user info fail";
+"personinfo_get_add_someone_as_common_emp_success" = "you set '%@' as common emp";
+"personinfo_get_add_someone_as_common_emp_fail" = "set common emp fail";
+"personinfo_get_add_someone_as_common_emp_timeout" = "set common emp timeout";
+"personinfo_saving_user_info" = "saving...";
+"personinfo_save_success" = "save success";
+"personinfo_someone_is_already_common_emp" = "'%@' is already common emp";
+"personinfo_remove_someone_from_common_emp" = "you removed '%@' from common emp";
+"personinfo_send" = "Chat";
+"personinfo_call" = "Call";
+"personinfo_message" = "Message";
+"personinfo_contact_permission" = "No permission to access the contacts, turn in the system settings";
+"personinfo_save_to_contacts" = "Save";
+
+"personinfo_contact_already_exists" = "Contact already exists, overwrite?";
+"personinfo_yes" = "Yes";
+"personinfo_no" = "No";
+
+//==========修改头像 裁剪长方形头像==========
+"GKIchoosePhoto" = "Choose Photo";
+"GKIuse" = "Use";
+"GKImoveAndScale" = "Move and Scale";
+"GKIcancel" = "Cancel";
+"GKIuse" = "Choose";
+
+
+//文件助手提示
+"edit" = "Edit";
+"delete_contact" = "delete";
+"future_generations" = "future generations";
+"file_search_tip" = "Search(please enter a file name)";
+"file_search_new_tip" = "please enter a file name";
+"file_browse" = "Browse";
+"file_stop" = "Stop";
+"confirm_delete" = "Confirm delete";
+"confirm_delete_meaasge" = "%@ and so on %i files";
+"download_traffic_tips" = "Flow reminder(%@)";
+"download_gprs_tips" = "Currently in a mobile network, to continue downloading mobile traffic will be generated";
+"forward_gprs_tips" = "Currently in a mobile network, to continue forwarding mobile traffic will be generated(%@)";
+"file_source_single_rec" = "From %@";
+"file_source_single_send" = "Send to %@";
+"file_source_group_rec" = "From group:%@";
+"file_source_group_send" = "Send to group:%@";
+"file_has_expired" = "Expired";
+"file_pull_up_more_records" = "Pull up display more records";
+"file_no_more_records" = "No more records";
+"file_has_expired_tips" = "The file does not exist or has expired";
+"file_forward_expired_tips" = "Please select a valid file to forward";
+"file_upload_waiting" = "Waiting...";
+
+//对文件按照月份分组 月份显示格式定义
+"file_header_time_format" = "yyyy-M";
+"file_cur_week" = "Current Week";
+
+
+//收藏
+"create_conf" = "Create meet";
+"my_collections" = "My collections";
+"collected_in" = "Collected in ";
+"send_in" = "send in:";
+"favorite" = "Favorite";
+"collections" = "Favorites";
+"detail" = "detail";
+"editing" = "edit";
+"messageFrom" = "From";
+"personal" = "personal";
+"select_all" = "select all";
+
+"please_choose_what_you_want_to_edit" = "Please choose what you want to edit";
+"are_you_sure_to_delete_the" = "Are you sure to delete the";
+"options_you_choose" = "options you choose";
+
+"collection_tip" = "There is no collection for the time~\nYou can keep the message in the chat interface";
+
+//按照类型搜索
+"search_By_Text_Type" = "TEXT";
+"search_By_Pic_Type" = "PIC";
+"search_By_File_Type" = "FILE";
+"search_By_Record_Type" = "REC";
+"search_By_Video_Type" = "VIDEO";
+"search_By_All_Type" = "ALL";
+
+//消息召回
+"msg_recall" = "Recall";
+"you_have_recall_a_message" = "You’ve recalled a message.";
+"xxx_has_recalled_a_message" = "%@ has recalled a message.";
+"msg_recalling" = "Recalling";
+"msg_recall_fail" = "Recall message fail.";
+"msg_recall_timeout" = "Recall message timeout";
+
+//本地通知
+"local_notification_someone_send_a_pic" = "send an image";
+"local_notification_someone_send_an_audio" = "send an audio message";
+"local_notification_someone_send_a_long_message" = "send a long message";
+"local_notification_someone_send_a_file" = "send a file";
+"local_notification_someone_send_a_video" = "send a video";
+"local_notification_someone_send_an_image_text_msg" = "send a image and text message";
+
+//被移出讨论组提示
+"you_are_removed_from_this_group" = "You are removed from this group";
+//位置
+"location" = "location";
+//导航
+"navigation" = "navigation";
+"hide_the_route" = "Hide the route";
+"According_to_route" = "According to route";
+"Baidu_map" = "Baidu map";
+"Scott_map" = "Scott map";
+"Apple_map" = "Apple map";
+
+// 应用消息通知
+"app_msg" = "Notification";
+
+// 应用管理
+"please_login_first" = "Please login first";
+
+
+//泰禾
+
+"taihe_office" = "office";
+
+
+// 在Safari中打开超链接
+"open_with_safari" = "OpenWithSafari";
+
+
+// 激活邮箱 - 国美
+"edit_mail_message" = "EditMailMessage";
+"mail_collect_server" = "MailCollectServer";
+"forget_the_mailbox_officemail_just_use_xiaochong" = "ForgetTheMailboxOfficemailJustUseTheXiaochong";
+"activate_the_server_you_can" = "ActivateTheServerYouCan";
+"new_mail_get_notice_timely" = "NewMailGetNoticeTimely";
+"get_new_mail_timely" = "GetNewMailTimely";
+"need_not_download_or_login_mail_to_check_and_reply" = "NeedNotDownloadOrLoginMailToCheckAndReply";
+"activate_rightnow" = "ActivateRightnow";
+"please_enter_your_account_and_password_to_activate_the_mail_server" = "PleaseEnterYourAccountAndPasswordToActivateTheMailServer";
+"mail_account" = "MailAccount";
+"mail_password"= "MailPassword";
+"please_enter_your_mail_account" = "PleaseEnterYourMailAccount!";
+"account_or_password_error_please_enter_again" = "AccountOrPasswordErrorPleaseEnterAgain!";
+"commit" = "commit";
+"mail_warning" = "mailWarning";
+"have_checked_your_mail_or_password_is_error" = "haveCheckedYourMailOrPasswordIsError";
+"please_update_your_mail_and_password_as_soon_as_possiple" = "pleaseUpdateYourMailAndPasswordAsSoonAsPossiple";
+"update_immediately" = "updateImmediately";
+"remind_me_later" = "remindMeLater";
+"activated" = "Activated";
+"inactive" = "Inactive";
+
+//密聊消息相关定义
+"encrypt_msg" = "Encrypt";
+"open_encrypt_msg" = "View Encrypt Message";
+"key_unread_message" = "[unread]";
+"key_message" = "message";
+
+"key_encrypt_chat" = "Encrypt message";
+
+//国美高级搜索相关定义
+"key_adv_search_contact" = "Contacts";
+"key_adv_search_view_more_contact" = "View More Contacts";
+"key_adv_search_group" = "Groups";
+"key_adv_search_view_more_group" = "View More Groups";
+"key_adv_search_convrecords" = "Messages";
+"key_adv_search_view_more_convrecords" = "View More Messages";
+"key_adv_search_app" = "Application";
+"key_adv_search_view_more_app" = "View More Applications";
+"key_adv_search_file" = "Files";
+"key_adv_search_view_more_file" = "View More Files";
+"key_adv_search_webpage" = "Webpage";
+"key_adv_search_from" = "From";
+

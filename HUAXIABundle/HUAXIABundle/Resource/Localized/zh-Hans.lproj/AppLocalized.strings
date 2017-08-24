@@ -1,0 +1,17 @@
+/* 
+  AppLocalized.strings
+  eCloud
+
+  Created by Alex L on 16/12/1.
+  Copyright © 2016年  lyong. All rights reserved.
+
+*/
+
+"main_chats" = "知信";
+"chats_talksession_message_receipt_1" = "钉消息";
+"chatmessage_chat_set_top" = "置顶";
+
+"create_conf_tips_single" = "立即与\"%@\"发起网络会议？";
+"create_conf_tips_group" = "立即与讨论组中所有成员发起网络会议？";
+
+"me_file_assistant" = "我的知信文件";

@@ -1,0 +1,6 @@
+framework module BizConfSDK {
+  umbrella header "BizConfSDK.h"
+
+  export *
+  module * { export * }
+}

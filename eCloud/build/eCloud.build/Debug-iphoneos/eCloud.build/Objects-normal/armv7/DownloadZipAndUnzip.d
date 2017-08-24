@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ZipArchive/DownloadZipAndUnzip.m \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ZipArchive/DownloadZipAndUnzip.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequest.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestConfig.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIProgressDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASICacheDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ZipArchive/ZipArchive.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ZipArchive/minizip/zip.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ZipArchive/minizip/ioapi.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ZipArchive/minizip/unzip.h \
+  /Users/davewilliam/Desktop/AGENT_WANDA/client.h \
+  /Users/davewilliam/Desktop/AGENT_WANDA/protocol.h \
+  /Users/davewilliam/Desktop/AGENT_WANDA/BasicDefine.h \
+  /Users/davewilliam/Desktop/AGENT_WANDA/Errors.h \
+  /Users/davewilliam/Desktop/AGENT_WANDA/queue.h \
+  /Users/davewilliam/Desktop/AGENT_WANDA/TRSA.h \
+  /Users/davewilliam/Desktop/AGENT_WANDA/AES.h

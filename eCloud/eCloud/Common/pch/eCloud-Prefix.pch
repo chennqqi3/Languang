@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'eCloud' target in the 'eCloud' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#if defined(__OBJC__) && defined(_GOME_FLAG_)
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <tingyunApp/NBSAppAgent.h>
+
+#elif defined(__OBJC__)
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif
+
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+
+#define kBufferDurationSeconds .5

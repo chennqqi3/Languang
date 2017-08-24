@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Main/controller/useless/talkRecordViewController.m \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Main/controller/useless/talkRecordViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/controller/useless/chooseMemberViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/controller/personInfoViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Main/controller/useless/personGroupViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Main/controller/useless/talkRecordDetailViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASINetworkQueue.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIProgressDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryPhotoView.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryPhoto.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/ConvRecord.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/amrToWav/amrToWavMothod.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/database/eCloudDAO.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/database/ConvDAO.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/database/OrgDAO.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/database/eCloud.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/database/LCLSqlite.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/database/sqlite/sqlite3.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/model/eCloudNotification.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/Conversation.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/model/Emp.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/view/LCLLoadingView.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/eCloudDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/UIAdapterUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/config/eCloudConfig.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/AppModeDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/NotificationDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/OpenCtx/IMSDK/define/OpenNotificationDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/StringUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/LogUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/IOSSystemDefine.h

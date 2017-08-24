@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/controller/useless/CommonEmpViewController.m \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/controller/useless/CommonEmpViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/controller/personInfoViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/UIAdapterUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/StringUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/model/Emp.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/database/UserDataDAO.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/database/eCloud.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/database/LCLSqlite.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/database/sqlite/sqlite3.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/cell/useless/EmpCell.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/controller/useless/specialChooseMemberViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/OpenCtx/IMSDK/define/OpenCtxDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Main/controller/useless/personGroupViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/database/eCloudDAO.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/database/ConvDAO.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/database/OrgDAO.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/conn/UserDataConn.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/WandaAgent/client.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/WandaAgent/protocol.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/WandaAgent/BasicDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/WandaAgent/Errors.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/WandaAgent/queue.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/WandaAgent/TRSA.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/WandaAgent/AES.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequest.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestConfig.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIProgressDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASICacheDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/UserTipsUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/model/eCloudNotification.h

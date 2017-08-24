@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="214" id="KGk-i7-Jjw" customClass="EntranceTicketCellTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="214"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="214"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fG8-cV-90n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="198.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-ticket.png" translatesAutoresizingMaskIntoConstraints="NO" id="mOF-mM-gnT">
+                                <rect key="frame" x="10" y="10" width="300" height="124"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9MB-zl-P9A" userLabel="bottom View">
+                                <rect key="frame" x="10" y="134" width="300" height="64.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="国美 11.8 日内购会" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfV-zh-x7h">
+                                        <rect key="frame" x="0.0" y="12" width="142" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已分享 15 人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ozr-VM-hZT">
+                                        <rect key="frame" x="0.0" y="41" width="96" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDy-H5-vKf">
+                                        <rect key="frame" x="208" y="15.5" width="92" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="分享入场券"/>
+                                        <connections>
+                                            <action selector="shareTicket:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="vy4-uD-dFZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Ozr-VM-hZT" firstAttribute="top" secondItem="JfV-zh-x7h" secondAttribute="bottom" constant="8" id="7c3-Kd-orb"/>
+                                    <constraint firstItem="Ozr-VM-hZT" firstAttribute="leading" secondItem="9MB-zl-P9A" secondAttribute="leading" id="AMS-MY-6i4"/>
+                                    <constraint firstAttribute="trailing" secondItem="zDy-H5-vKf" secondAttribute="trailing" id="F68-hZ-A22"/>
+                                    <constraint firstItem="JfV-zh-x7h" firstAttribute="leading" secondItem="9MB-zl-P9A" secondAttribute="leading" id="Jes-re-wEl"/>
+                                    <constraint firstItem="zDy-H5-vKf" firstAttribute="centerY" secondItem="9MB-zl-P9A" secondAttribute="centerY" id="Saq-vK-sNY"/>
+                                    <constraint firstItem="JfV-zh-x7h" firstAttribute="top" secondItem="9MB-zl-P9A" secondAttribute="top" constant="12" id="lOF-US-Ah1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mOF-mM-gnT" firstAttribute="height" secondItem="fG8-cV-90n" secondAttribute="height" multiplier="5:8" id="HNM-Uc-dfs"/>
+                            <constraint firstItem="9MB-zl-P9A" firstAttribute="top" secondItem="mOF-mM-gnT" secondAttribute="bottom" id="J84-lO-4C7"/>
+                            <constraint firstItem="9MB-zl-P9A" firstAttribute="leading" secondItem="fG8-cV-90n" secondAttribute="leading" constant="10" id="Jh5-CL-Thd"/>
+                            <constraint firstAttribute="trailing" secondItem="9MB-zl-P9A" secondAttribute="trailing" constant="10" id="N69-EF-e8G"/>
+                            <constraint firstItem="mOF-mM-gnT" firstAttribute="top" secondItem="fG8-cV-90n" secondAttribute="top" constant="10" id="bjx-Ks-gAK"/>
+                            <constraint firstAttribute="trailing" secondItem="mOF-mM-gnT" secondAttribute="trailing" constant="10" id="f8h-NT-HMT"/>
+                            <constraint firstAttribute="bottom" secondItem="9MB-zl-P9A" secondAttribute="bottom" id="iaf-jZ-Aze"/>
+                            <constraint firstItem="mOF-mM-gnT" firstAttribute="leading" secondItem="fG8-cV-90n" secondAttribute="leading" constant="10" id="xcn-Sh-Pm6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fG8-cV-90n" secondAttribute="bottom" constant="15" id="Eg7-Rt-k3m"/>
+                    <constraint firstItem="fG8-cV-90n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="H1Y-9L-GIA"/>
+                    <constraint firstAttribute="trailing" secondItem="fG8-cV-90n" secondAttribute="trailing" id="KwY-69-MtN"/>
+                    <constraint firstItem="fG8-cV-90n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="P0n-32-bah"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgView" destination="mOF-mM-gnT" id="gES-bg-Uau"/>
+                <outlet property="nameLabel" destination="JfV-zh-x7h" id="HDV-SV-Zne"/>
+                <outlet property="shareBtn" destination="zDy-H5-vKf" id="016-DO-fWb"/>
+                <outlet property="shareCountLabel" destination="Ozr-VM-hZT" id="FnP-Ub-ykn"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="-33"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder-ticket.png" width="636" height="300"/>
+    </resources>
+</document>

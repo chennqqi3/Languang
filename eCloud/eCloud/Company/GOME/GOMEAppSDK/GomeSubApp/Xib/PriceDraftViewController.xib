@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PriceDraftViewController">
+            <connections>
+                <outlet property="noDataImgView" destination="Zed-lg-hFb" id="pK3-Ob-XmQ"/>
+                <outlet property="noDataView" destination="Ilf-7l-0K8" id="GFf-B9-7Uv"/>
+                <outlet property="tableView" destination="w2n-Pt-lEO" id="jFa-2b-ERS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ilf-7l-0K8" userLabel="noDataView">
+                    <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zed-lg-hFb">
+                            <rect key="frame" x="150" y="250" width="75" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Gng-py-V0l"/>
+                                <constraint firstAttribute="width" constant="75" id="uOu-Ne-tFC"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqB-Tt-rHh">
+                            <rect key="frame" x="156" y="325" width="61.5" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="SqB-Tt-rHh" firstAttribute="top" secondItem="Zed-lg-hFb" secondAttribute="bottom" constant="15" id="i9F-og-8tU"/>
+                        <constraint firstItem="Zed-lg-hFb" firstAttribute="top" secondItem="Ilf-7l-0K8" secondAttribute="top" constant="250" id="krK-Ks-xSq"/>
+                        <constraint firstItem="SqB-Tt-rHh" firstAttribute="centerX" secondItem="Ilf-7l-0K8" secondAttribute="centerX" id="l4D-Mg-tJJ"/>
+                        <constraint firstItem="Zed-lg-hFb" firstAttribute="centerX" secondItem="Ilf-7l-0K8" secondAttribute="centerX" id="rD8-ta-fAq"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="w2n-Pt-lEO">
+                    <rect key="frame" x="0.0" y="45" width="375" height="622"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ilf-7l-0K8" secondAttribute="bottom" id="7Nq-tn-yyJ"/>
+                <constraint firstItem="w2n-Pt-lEO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="45" id="GwC-Bu-sD1"/>
+                <constraint firstItem="Ilf-7l-0K8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Js9-Pr-MNP"/>
+                <constraint firstItem="w2n-Pt-lEO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Lv5-O8-99K"/>
+                <constraint firstAttribute="bottom" secondItem="w2n-Pt-lEO" secondAttribute="bottom" id="MhK-Ug-zVI"/>
+                <constraint firstItem="Ilf-7l-0K8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="44" id="OX4-xz-EbE"/>
+                <constraint firstAttribute="trailing" secondItem="Ilf-7l-0K8" secondAttribute="trailing" id="pCd-3B-UKe"/>
+                <constraint firstAttribute="trailing" secondItem="w2n-Pt-lEO" secondAttribute="trailing" id="rJM-gH-kgr"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

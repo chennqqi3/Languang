@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="TopNewsView">
+            <rect key="frame" x="0.0" y="0.0" width="245" height="292"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_news_bg" translatesAutoresizingMaskIntoConstraints="NO" id="J7U-KP-7l7">
+                    <rect key="frame" x="0.0" y="0.0" width="245" height="292"/>
+                </imageView>
+                <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOe-wl-Aee">
+                    <rect key="frame" x="0.0" y="177" width="245" height="115"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="115" id="QZl-SN-O7z"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqQ-fl-19S">
+                    <rect key="frame" x="8" y="180" width="229" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="6Lj-Qg-PSy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-04-12 15:01" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eB-y9-JZZ">
+                    <rect key="frame" x="8" y="220" width="229" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="ebM-7F-otd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.56470588235294117" green="0.5607843137254902" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团万达集团" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thf-Ph-Kog">
+                    <rect key="frame" x="8" y="236" width="229" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="Cnr-Eo-7P3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.792156862745098" green="0.79607843137254897" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mOe-wl-Aee" secondAttribute="bottom" id="1f9-rF-Xtv"/>
+                <constraint firstItem="lqQ-fl-19S" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="5D4-fd-iXU"/>
+                <constraint firstAttribute="trailing" secondItem="lqQ-fl-19S" secondAttribute="trailing" constant="8" id="93e-4Y-hJd"/>
+                <constraint firstAttribute="trailing" secondItem="0eB-y9-JZZ" secondAttribute="trailing" constant="8" id="EXh-Kl-mGM"/>
+                <constraint firstItem="Thf-Ph-Kog" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="IJn-rY-dsx"/>
+                <constraint firstAttribute="bottom" secondItem="Thf-Ph-Kog" secondAttribute="bottom" constant="9" id="IY9-1V-itU"/>
+                <constraint firstAttribute="trailing" secondItem="mOe-wl-Aee" secondAttribute="trailing" id="JVn-up-L2b"/>
+                <constraint firstAttribute="bottom" secondItem="lqQ-fl-19S" secondAttribute="bottom" constant="76" id="Kb2-lk-LsA"/>
+                <constraint firstAttribute="bottom" secondItem="mOe-wl-Aee" secondAttribute="bottom" id="Kqp-Sp-B4H"/>
+                <constraint firstAttribute="trailing" secondItem="J7U-KP-7l7" secondAttribute="trailing" id="QqG-Qc-ShF"/>
+                <constraint firstItem="0eB-y9-JZZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="YoH-mM-QuZ"/>
+                <constraint firstItem="J7U-KP-7l7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Yq2-4b-6O9"/>
+                <constraint firstItem="mOe-wl-Aee" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dwT-FA-Qfa"/>
+                <constraint firstAttribute="trailing" secondItem="Thf-Ph-Kog" secondAttribute="trailing" constant="8" id="eUZ-sJ-ZjS"/>
+                <constraint firstAttribute="bottom" secondItem="0eB-y9-JZZ" secondAttribute="bottom" constant="51" id="jNH-tt-8Xp"/>
+                <constraint firstItem="J7U-KP-7l7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nTZ-Q4-OvD"/>
+                <constraint firstItem="mOe-wl-Aee" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rUI-UO-MxN"/>
+                <constraint firstAttribute="bottom" secondItem="J7U-KP-7l7" secondAttribute="bottom" id="uiX-A8-Gx6"/>
+                <constraint firstAttribute="trailing" secondItem="mOe-wl-Aee" secondAttribute="trailing" id="wfw-Dv-xWu"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="Thf-Ph-Kog" id="7NA-tR-fxj"/>
+                <outlet property="imageview" destination="J7U-KP-7l7" id="Urw-Hk-xZT"/>
+                <outlet property="inputTimeLabel" destination="0eB-y9-JZZ" id="1bd-75-HDw"/>
+                <outlet property="titleLabel" destination="lqQ-fl-19S" id="R20-da-TKP"/>
+            </connections>
+            <point key="canvasLocation" x="204.5" y="209"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="top_news_bg" width="286" height="342"/>
+    </resources>
+</document>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GSACRMMianViewController">
+            <connections>
+                <outlet property="noDataImg" destination="IHG-nW-YL3" id="ZEf-TE-HOp"/>
+                <outlet property="noDataView" destination="Rjw-C1-tIR" id="Byl-4X-ynl"/>
+                <outlet property="noRightIcon" destination="sM9-1t-5Rh" id="pfh-RC-Rwy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cjf-la-kcg">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_没有内容.png" translatesAutoresizingMaskIntoConstraints="NO" id="sM9-1t-5Rh">
+                            <rect key="frame" x="149.5" y="243" width="75" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="Typ-fy-6n5"/>
+                                <constraint firstAttribute="width" constant="75" id="xSm-7h-gNn"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="很抱歉，您没有权限！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAR-zy-s0i" userLabel="很抱歉，您没有权限！">
+                            <rect key="frame" x="100.5" y="323" width="173.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="jAR-zy-s0i" firstAttribute="top" secondItem="sM9-1t-5Rh" secondAttribute="bottom" constant="20" id="NaS-Zk-Ngj"/>
+                        <constraint firstItem="jAR-zy-s0i" firstAttribute="centerX" secondItem="Cjf-la-kcg" secondAttribute="centerX" id="Pkn-pc-6Th"/>
+                        <constraint firstItem="jAR-zy-s0i" firstAttribute="centerY" secondItem="Cjf-la-kcg" secondAttribute="centerY" id="Uye-7j-Xj8"/>
+                        <constraint firstItem="sM9-1t-5Rh" firstAttribute="centerX" secondItem="Cjf-la-kcg" secondAttribute="centerX" id="lc8-nk-aaH"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rjw-C1-tIR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_添加客户.png" translatesAutoresizingMaskIntoConstraints="NO" id="IHG-nW-YL3">
+                            <rect key="frame" x="147.5" y="200" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="OH0-cX-shB"/>
+                                <constraint firstAttribute="width" constant="80" id="ZV1-fA-RSt"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赶快添加按钮或右上角创建一个客户吧！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajC-JO-jQq">
+                            <rect key="frame" x="0.0" y="285" width="375" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbE-sl-gHA">
+                            <rect key="frame" x="20" y="583" width="335" height="44"/>
+                            <color key="backgroundColor" red="0.237076804" green="0.53459954259999998" blue="0.8745648265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="t1I-us-udg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal" title="新建客户">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="addNewUser:" destination="-1" eventType="touchUpInside" id="ViR-zB-5Af"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ajC-JO-jQq" firstAttribute="top" secondItem="IHG-nW-YL3" secondAttribute="bottom" constant="5" id="4Ks-n4-rud"/>
+                        <constraint firstAttribute="bottom" secondItem="nbE-sl-gHA" secondAttribute="bottom" constant="40" id="Ddc-HH-oFu"/>
+                        <constraint firstAttribute="trailing" secondItem="nbE-sl-gHA" secondAttribute="trailing" constant="20" id="Mdh-jL-EBO"/>
+                        <constraint firstItem="IHG-nW-YL3" firstAttribute="top" secondItem="Rjw-C1-tIR" secondAttribute="top" constant="200" id="kRa-ZZ-HVZ"/>
+                        <constraint firstAttribute="trailing" secondItem="ajC-JO-jQq" secondAttribute="trailing" id="kTX-ik-9Og"/>
+                        <constraint firstItem="nbE-sl-gHA" firstAttribute="leading" secondItem="Rjw-C1-tIR" secondAttribute="leading" constant="20" id="mXV-dk-5XZ"/>
+                        <constraint firstItem="ajC-JO-jQq" firstAttribute="leading" secondItem="Rjw-C1-tIR" secondAttribute="leading" id="ofN-MM-rB3"/>
+                        <constraint firstItem="IHG-nW-YL3" firstAttribute="centerX" secondItem="Rjw-C1-tIR" secondAttribute="centerX" id="paf-kk-Zlt"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Rjw-C1-tIR" secondAttribute="bottom" id="BWd-1C-4jL"/>
+                <constraint firstAttribute="bottom" secondItem="Cjf-la-kcg" secondAttribute="bottom" id="DNG-ub-tGY"/>
+                <constraint firstItem="Cjf-la-kcg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XqY-Em-Y4n"/>
+                <constraint firstItem="Cjf-la-kcg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Yw4-dD-F0P"/>
+                <constraint firstAttribute="trailing" secondItem="Rjw-C1-tIR" secondAttribute="trailing" id="kTF-Hy-9xL"/>
+                <constraint firstItem="Rjw-C1-tIR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qNb-CJ-yXG"/>
+                <constraint firstAttribute="trailing" secondItem="Cjf-la-kcg" secondAttribute="trailing" id="twV-m4-Id7"/>
+                <constraint firstItem="Rjw-C1-tIR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uxy-zZ-Vn5"/>
+            </constraints>
+            <point key="canvasLocation" x="32.5" y="61.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_没有内容.png" width="74" height="59"/>
+        <image name="icon_添加客户.png" width="56" height="56"/>
+    </resources>
+</document>

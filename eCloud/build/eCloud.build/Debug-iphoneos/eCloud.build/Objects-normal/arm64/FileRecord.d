@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/FileRecord.m \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/FileRecord.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/ConvRecord.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/util/talkSessionUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/IOSSystemDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/UserInterfaceUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/define/TalkSessionDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/StringUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/model/Emp.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/RNCryptor/EncryptFileManege.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Collection/util/CollectionUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/eCloudDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/UIAdapterUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/model/eCloudNotification.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/config/eCloudConfig.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/AppModeDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/NotificationDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/OpenCtx/IMSDK/define/OpenNotificationDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/LogUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Robot/model/RobotResponseModel.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Robot/util/RobotUtil.h

@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            // 打开通讯录
+            function selectContacts()
+            {
+                wangxin.openContacts("callback");
+            }
+            
+            // 打开通讯录的回调函数
+            callback = function(data)
+            {
+                var tableObj = document.getElementById("contact");
+                var jsonObjects = eval(data);
+                for(var i=0; i<jsonObjects.length; i++)
+                {
+                    var jsonObj = jsonObjects[i];
+                    var tr = tableObj.insertRow(tableObj.rows.length);
+                    var td1 = tr.insertCell(0);
+                    var td2 = tr.insertCell(1);
+                    var td3 = tr.insertCell(2);
+                    var td4 = tr.insertCell(3);
+                    var td5 = tr.insertCell(4);
+                    
+                    td1.innerHTML="<a href='javascript:void(0);'onclick='javascript:openContact("+jsonObj.usercode+");'>"+jsonObj.username + "</a>";
+                    td2.innerHTML = jsonObj.usercode;
+                    td3.innerHTML = jsonObj.email;
+                    td4.innerHTML="<input type='checkbox' name='selContact' value='"+jsonObj.usercode+"'></input>";
+                    td5.innerHTML = getUserStatus(jsonObj.usercode);
+                }
+            }
+            
+            // 获取用户在线状态
+            function getUserStatus(usercode)
+            {
+                // 调用开放接口获取用户状态
+                status = wangxin.getUserStatus(usercode);
+                if(status == 1)
+                return "在线";
+                else if(status == 2)
+                return "离开";
+                else
+                return "离线";
+            }
+            
+            // 查看联系人信息
+            function openContact(usercode)
+            {
+                wangxin.openContact(usercode);
+            }
+            
+            // 发起会话
+            function inviteGroupChat(selectContact)
+            {
+                // 创建数据
+                var  userCodeArray = new Array();
+                var checkboxvar = document.getElementsByName("selContact");
+                for(var i=0;i<checkboxvar.length;i++)
+                {
+                    if(checkboxvar[i].checked == true)
+	    	   		userCodeArray.push(checkboxvar[i].value)
+                }
+                // 调用发起会话的API接口
+                wangxin.inviteChat(selectContact,userCodeArray);
+            }
+            
+            // 分享
+            function share(type,content,url)
+            {
+                // 调用分享API接口
+                wangxin.share2wangxin(type,content,url);
+            }
+            </script>
+    </head>
+    <body>
+        <input type="button" value="选择联系人" onclick="selectContacts();" /><input type="button" value="发起会话" onclick="inviteGroupChat(false);" />	<input type="button" value="邀请并发起会话" onclick="inviteGroupChat(true);" />
+        <table id="contact">  
+            <tr>    
+                <td width="100">姓名</td>  
+                <td width="100">工号</td>  
+                <td width="100">邮箱</td>  
+                <td width="100">选择</td>
+                <td width="100">状态</td>
+            </tr>  
+        </table>  
+    </body>
+</html>

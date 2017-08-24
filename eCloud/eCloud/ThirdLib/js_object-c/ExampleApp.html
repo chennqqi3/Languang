@@ -1,0 +1,670 @@
+<!doctype html>
+<html><head>
+	<style type='text/css'>
+		html { font-family:Helvetica; color:#222; }
+		h1 { color:steelblue; font-size:24px; margin-top:24px; }
+		button { margin:0 3px 10px; font-size:12px; }
+		.logLine { border-bottom:1px solid #ccc; padding:4px 2px; font-family:courier; font-size:11px; }
+	</style>
+</head><body>
+   
+	<script>
+	window.onerror = function(err) {
+		log('window.onerror: ' + err)
+	}
+	
+	function connectWebViewJavascriptBridge(callback) {
+		if (window.WebViewJavascriptBridge) {
+			callback(WebViewJavascriptBridge)
+		} else {
+			document.addEventListener('WebViewJavascriptBridgeReady', function() {
+				callback(WebViewJavascriptBridge)
+			}, false)
+		}
+	}
+	
+	connectWebViewJavascriptBridge(function(bridge) {
+		var uniqueId = 1
+		function log(message, data) {
+			var log = document.getElementById('log')
+			var el = document.createElement('div')
+			el.className = 'logLine'
+			el.innerHTML = uniqueId++ + '. ' + message + (data ? ':<br/>' + JSON.stringify(data) : '')
+			if (log.children.length) { log.insertBefore(el, log.children[0]) }
+			else { log.appendChild(el) }
+		}
+                                   
+		bridge.init(function(message, responseCallback) {
+			log('JS got a message', message)
+			var data = { 'Javascript Responds':'Wee!' }
+			log('JS responding with', data)
+			responseCallback(data)
+		})
+
+// 显示日志
+		bridge.registerHandler('logHandler', function(data, responseCallback) {
+			alert(data);
+// 			log('longHandler',data);
+/*
+			log('ObjC called openContactsHandler with', data)
+                               alert(data);
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+			log('JS responding with', responseData)
+			responseCallback(responseData)
+*/
+		})
+
+		bridge.registerHandler('openContactsHandler', function(data, responseCallback) {
+			log('ObjC called openContactsHandler with', data)
+                               alert(data);
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+			log('JS responding with', responseData)
+			responseCallback(responseData)
+		})
+// 		显示扫描结果
+		bridge.registerHandler('scanQRCodeHandler', function(data, responseCallback) {
+// 			log('ObjC called openContactsHandler with', data)
+                               alert(data);
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+// 			log('JS responding with', responseData)
+			responseCallback(responseData)
+		})
+		
+// 		显示选择联系人结果
+		bridge.registerHandler('selectContactsHandler', function(data, responseCallback) {
+// 			log('ObjC called openContactsHandler with', data)
+//                               alert(data);
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+// 			log('JS responding with', responseData)
+                               
+                               bridge.callHandler('createConv', {'userCodes' : data,'convTitle':'new conv title','message':'test message string'},function(response) {
+                                                  //                                                       log('JS got response', response)
+                                                  // alert(response);
+                                                  
+                                                  });
+			responseCallback(responseData)
+		})
+		
+// 		选择照片结果
+		bridge.registerHandler('chooseImageHandler', function(data, responseCallback) {
+// 			log('ObjC called openContactsHandler with', data)
+                               alert(data);
+
+// 				e.preventDefault();
+//                 bridge.callHandler('uploadImage', {},function(response) {});
+
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+// 			log('JS responding with', responseData)
+			responseCallback(responseData)
+		})
+		
+		// 		上传照片结果
+		bridge.registerHandler('uploadImageHandler', function(data, responseCallback) {
+// 			log('ObjC called openContactsHandler with', data)
+                               alert(data);
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+// 			log('JS responding with', responseData)
+			responseCallback(responseData)
+		})
+             
+//              获取当前位置处理
+      	bridge.registerHandler('currentLocationHandler', function(data, responseCallback) {
+// 			log('ObjC called openContactsHandler with', data)
+                               alert(data);
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+// 			log('JS responding with', responseData)
+			responseCallback(responseData)
+		}) 
+		bridge.registerHandler('openLocationHandler', function(data, responseCallback) {
+// 			log('ObjC called openContactsHandler with', data)
+                               alert(data);
+			var responseData = { 'Javascript Says':'Right back atcha!' }
+// 			log('JS responding with', responseData)
+			responseCallback(responseData)
+		}) 
+		bridge.registerHandler('getUserInfoHandler', function(data, responseCallback) {
+// 			log('ObjC called openContactsHandler with', data)
+                               alert(data);
+			
+// 			log('JS responding with', responseData)
+			responseCallback(responseData)
+		})
+        bridge.registerHandler('getFileAssistantHandler', function(data, responseCallback) {
+ 
+                                alert(data);
+                                                          
+// 			log('JS responding with', responseData)
+            responseCallback(responseData)
+                                                          })
+        bridge.registerHandler('uploadVoiceHandler', function(data, responseCallback) {
+ 
+                                alert(data);
+                                                          
+// 			log('JS responding with', responseData)
+            responseCallback(responseData)
+                                                          })
+        
+        bridge.registerHandler('downloadVoiceHandler', function(data, responseCallback) {
+ 
+                                alert(data);
+                                                          
+// 			log('JS responding with', responseData)
+            responseCallback(responseData)
+                                                          })
+        
+        bridge.registerHandler('phone_modelHandler', function(data, responseCallback) {
+                                                          
+               alert(data);
+                                                          
+               // 			log('JS responding with', responseData)
+               responseCallback(responseData)
+                                                          })
+                                   
+        bridge.registerHandler('getAccessToken', function(data, responseCallback) {
+                                                          
+                                                          alert(data);
+                                                          
+                                                          // 			log('JS responding with', responseData)
+                                                          responseCallback(responseData)
+                                                          })
+														  
+                                                          
+/*
+      var callbackButton_1 = document.getElementById('button_1')
+        callbackButton_1 .onclick = function(e) {
+                                    e.preventDefault()
+                                   log('JS calling handler "openContacts"')
+                                   bridge.callHandler('openContacts', {'user_id': '2'}, function(response) {
+                                                      log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      })
+                                   }
+        var callbackButton_2 = document.getElementById('button_2')
+        callbackButton_2 .onclick = function(e) {
+        e.preventDefault()
+        log('JS calling handler "inviteChat"')
+        bridge.callHandler('inviteChat', {'usercodes': ['_sso_t_00126','_sso_t_00127','_sso_t_00128'],'selectContact':false}, function(response) {
+             log('JS got response', response)
+//              alert(response);
+                           })
+                                   }
+               
+      var callbackButton_3 = document.getElementById('button_3')
+          callbackButton_3 .onclick = function(e) {
+          e.preventDefault()
+          log('JS calling handler "inviteChat"')
+          bridge.callHandler('inviteChat', {'usercodes': ['_SSO_T_00126','_sso_t_00127','_sso_t_00128'],'selectContact':true}, function(response) {
+                        log('JS got response', response)
+//                                                      alert(response);
+              })
+                                   }
+                                   
+        var callbackButton_4 = document.getElementById('button_4')
+           callbackButton_4 .onclick = function(e) {
+           e.preventDefault()
+           log('JS calling handler "openContact"')
+            bridge.callHandler('openContact', {'usercode': '_SSO_T_00126'}, function(response) {
+            log('JS got response', response)
+            alert(response);
+            })
+                                   }
+                                   
+        var callbackButton_5 = document.getElementById('button_5')
+        callbackButton_5 .onclick = function(e) {
+        e.preventDefault()
+        log('JS calling handler "getUserStatus"')
+        bridge.callHandler('getUserStatus', {'usercode': '_sso_t_00126'}, function(response) {
+                                                      log('JS got response', response)
+                                                      alert(response);
+                                                      })
+                                   }
+                                   
+        var callbackButton_6 = document.getElementById('button_6')
+                                   callbackButton_6 .onclick = function(e) {
+                                   e.preventDefault()
+                                   log('JS calling handler "share2wangxin"')
+                                   bridge.callHandler('share2wangxin', {'messagetype': 'text','content': '11133112123','contenturl':'http://www.baidu.com/'}, function(response) {
+                                                      log('JS got response', response)
+                                                      alert(response);
+                                                      })
+                                   }
+*/
+                                   <!--录音接口-->
+                                    
+        var button_start_record = document.getElementById('button_start_record');
+        button_start_record.onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('startRecord', {}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };
+                                   
+                                    
+        var button_stop_record = document.getElementById('button_stop_record');
+        button_stop_record.onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('stopRecord', {}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };
+
+                                    
+        var button_play_voice = document.getElementById('button_play_voice');
+        button_play_voice .onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('playVoice', {}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };
+
+                                    
+        var button_pause_voice = document.getElementById('button_pause_voice');
+        button_pause_voice.onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('pauseVoice', {}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };
+                                   
+        var button_stop_voice = document.getElementById('button_stop_voice');
+        button_stop_voice.onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('stopVoice', {}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };  
+var button_upload_voice = document.getElementById('button_upload_voice');
+        button_upload_voice.onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('uploadVoice', {}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };                                                                      
+var button_download_voice = document.getElementById('button_download_voice');
+        button_download_voice.onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('downloadVoice', {}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };                                     
+                                   
+                                   <!-- 扫描二维码按钮 -->
+                                   
+// 直接打开扫描结果                                   
+        var callbackButton_scanQRCode1 = document.getElementById('button_scanQRCode1');
+        callbackButton_scanQRCode1 .onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('scanQRCode', {'scan_type': 0}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };
+// 显示扫描结果                                   
+        var callbackButton_scanQRCode2 = document.getElementById('button_scanQRCode2');
+        callbackButton_scanQRCode2.onclick = function(e) {
+                                   e.preventDefault();
+                                   //log('JS calling handler ""')
+                                   bridge.callHandler('scanQRCode', {'scan_type': 1}, function(response) {
+//                                                       log('JS got response', response)
+//                                                       alert(response);
+                                                      });
+                                   };
+                                   
+                                   <!--选择联系人-->
+                                   
+// 单选
+ var button_selectContact_single = document.getElementById('button_selectContact_single');
+ button_selectContact_single .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('selectContacts', {'select_contacts_type' : 0},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };
+
+// 多选
+ var button_selectContact_multi = document.getElementById('button_selectContact_multi');
+ button_selectContact_multi .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('selectContacts', {'select_contacts_type' : 1},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };    
+                                   
+ // 发起会话
+ var button_create_conv = document.getElementById('button_create_conv');
+ button_create_conv .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('createConv', {'userCodes' : 'longjianfu#shisuping#wubiao','convTitle':'测试','message':''},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };                                                                   
+                                   
+// 	修改屏幕方向 横向
+var button_change_direction_landsape = document.getElementById('button_change_direction_landsape');
+ button_change_direction_landsape .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('changeDirection', {'direction' : 0},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };                                                                   
+                                   
+// 修改屏幕方向 纵向
+var button_change_direction_portrait = document.getElementById('button_change_direction_portrait');
+ button_change_direction_portrait .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('changeDirection', {'direction' : 1},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };                                                                   
+
+	<!--图片接口-->
+ var button_choose_image = document.getElementById('button_choose_image');
+ button_choose_image .onclick = function(e) {
+               	e.preventDefault();
+
+                bridge.callHandler('chooseImage', {chooseImageType:2},function(response) {
+
+                                                      
+                                                      });
+                                   }; 
+                                   
+ var button_upload_image = document.getElementById('button_upload_image');
+ button_upload_image .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('uploadImage', {},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };    
+
+ var button_preview_image = document.getElementById('button_preview_image');
+ button_preview_image .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('previewImage', {'current':'http://www.q-clouds.com/images/ad2.jpg','urls':['http://www.q-clouds.com/images/ad01.jpg','http://www.q-clouds.com/images/ad02.jpg','http://www.q-clouds.com/images/ad2.jpg','http://www.q-clouds.com/images/ad3.jpg','http://www.q-clouds.com/images/ad4.jpg','http://www.q-clouds.com/images/ad5.jpg','http://www.q-clouds.com/images/ad6.jpg','http://www.q-clouds.com/images/btn.png','http://www.q-clouds.com/images/icon.png','http://www.q-clouds.com/images/logo.png']},function(response) {
+                                   
+                                                      });
+                                   };
+                                    
+ var button_download_image = document.getElementById('button_download_image');
+ button_download_image .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('downloadImage', {},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };    
+                                   
+
+                                   
+<!--录像-->                                                                                                                                     
+ var button_start_video = document.getElementById('button_start_video');
+ button_start_video .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('startVideo', {},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   }; 
+                                   
+ var button_play_video = document.getElementById('button_play_video');
+ button_play_video .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('playVideo', {},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };    
+
+ var button_play_video = document.getElementById('button_current_location');
+ button_play_video .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('currentLocation', {},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   }; 
+
+ var button_play_video = document.getElementById('button_open_location');
+ button_play_video .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('openLocation', {},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };
+                                   
+                                   // 	个人信息
+var button_change_direction_landsape = document.getElementById('button_get_user_info');
+ button_change_direction_landsape .onclick = function(e) {
+               	e.preventDefault();
+//                 log('JS calling handler "openContacts"')
+                bridge.callHandler('getUserInfo', {'usercode' : 'wx-user1'},function(response) {
+//                                                       log('JS got response', response)
+                                                       // alert(response);
+                                                      
+                                                      });
+                                   };
+                                   // 	文件助手
+var button_change_direction_landsape = document.getElementById('button_get_file_assistant');
+								   button_change_direction_landsape .onclick = function(e) {
+                                   e.preventDefault();
+                                   //                 log('JS calling handler "openContacts"')
+                                   bridge.callHandler('getFileAssistant',{},function(response) {
+                                                      //                                                       log('JS got response', response)
+                                                      // alert(response);
+                                                      
+                                                      });
+                                   };
+                                   
+                                   //设备ID
+var button_change_direction_landsape = document.getElementById('button_get_phone_model');
+                                   button_change_direction_landsape .onclick = function(e) {
+                                   e.preventDefault();
+                                   //                 log('JS calling handler "openContacts"')
+                                   bridge.callHandler('phone_model',{},function(response) {
+                                                      //                                                       log('JS got response', response)
+                                                      // alert(response);
+                                                      
+                                                      });
+                                   };
+                                   
+                                   //oatoken
+var button_change_direction_landsape = document.getElementById('button_get_access_token');
+                                   button_change_direction_landsape .onclick = function(e) {
+                                   e.preventDefault();
+                                   //                 log('JS calling handler "openContacts"')
+                                   bridge.callHandler('access_token',{},function(response) {
+
+                                                      
+                                                      });
+                                   };
+                                   
+	});
+    function settitle(newtitle) {
+        if (window.WebViewJavascriptBridge) {
+            window.WebViewJavascriptBridge.callHandler('setRealTitle',{realTitle:newtitle},function(response) {
+                                                       
+                                                       });
+        }
+    };
+    
+    function setMeetingId(meetingId) {
+        if (window.WebViewJavascriptBridge) {
+            window.WebViewJavascriptBridge.callHandler('setMeetingID',{meetingID:meetingId},function(response) {
+                                                       
+                                                       });
+        }
+    };
+    
+    function setfileurl(fileUrl) {
+        if (window.WebViewJavascriptBridge) {
+            window.WebViewJavascriptBridge.callHandler('setFileUrl',{fileUrl:fileUrl},function(response) {
+                                                       
+                                                       });
+        }
+    };
+        function selectContacts()
+        {
+            alert('here');
+            //  e.preventDefault()
+        }
+	</script>
+	<div id='buttons'></div> <div id='log'></div>
+<!--
+    <input id='button_1' type="button" value="选择联系人" onclick="selectContacts();" />
+    <input id='button_2' type="button" value="发起会话" onclick="inviteGroupChat();" />
+    <input id='button_3' type="button" value="邀请并发起会话" onclick="inviteGroupChat11();" />
+    <input id='button_4' type="button" value="查看联系人信息" onclick="openContact();" />
+    <input id='button_5' type="button" value="状态感知" onclick="getUserStatus();" />
+    <input id='button_6' type="button" value="分享" onclick="share2wangxin();" />
+-->
+
+<!-- 录音 -->
+<h2 >录音</h2>
+<p>
+<input id='button_start_record' type="button" value="startRecord"  />
+<p>
+<input id='button_stop_record' type="button" value="stopRecord"  />
+<p>
+<input id='button_play_voice' type="button" value="playVoice"  />
+<p>
+<input id='button_pause_voice' type="button" value="pauseVoice"  />
+<p>
+<input id='button_stop_voice' type="button" value="stopVoice"  />
+<p>
+<input id='button_upload_voice' type="button" value="uploadVoice"  />
+<p>
+<input id='button_download_voice' type="button" value="downloadVoice"  />
+
+<!-- 图片 -->
+<h2 >图片</h2>
+<p>
+<input id='button_choose_image' type="button" value="chooseImage"  />
+<p>
+<input id='button_upload_image' type="button" value="uploadImage"  />
+<p>
+<input id='button_preview_image' type="button" value="previewImage"  />
+<p>
+<input id='button_download_image' type="button" value="downloadImage"  />
+	
+	<!-- 视频-->
+<h2 >视频</h2>
+<p>
+<input id='button_start_video' type="button" value="startVideo"  />
+<p>
+<input id='button_play_video' type="button" value="playVideo"  />
+	<!-- 当前位置-->
+<h2 >当前位置</h2>
+<p>
+<input id='button_current_location' type="button" value="currentLocation"  />
+<p>
+<input id='button_open_location' type="button" value="openLocation"  />
+
+<h2 >二维码</h2>
+    <p>
+    <input id='button_scanQRCode1' type="button" value="scanORCode(直接处理)"  />
+    <p>
+    <input id='button_scanQRCode2' type="button" value="scanQRCode(返回结果)" />
+    
+<h2 >选择联系人发起会话</h2>
+    
+    <p>
+        <input id='button_selectContact_single' type="button" value="选择联系人(单选)"/>
+	<p>
+	    <input id='button_selectContact_multi' type="button" value="选择联系人(多选)"/>
+	<p>
+	    <input id='button_create_conv' type="button" value="发起会话"/>
+	    
+	    <h2 >屏幕方向</h2>
+
+	<p>
+	    <input id='button_change_direction_landsape' type="button" value="改变屏幕方向(横向)"/>
+	<p>
+	    <input id='button_change_direction_portrait' type="button" value="改变屏幕方向(纵向)"/>
+
+<h2 >获取用户资料</h2>
+    <p>
+    <input id='button_get_user_info' type="button" value="打开用户详情页"/>
+    
+<h2 >文件助手</h2>
+    <p>
+    <input id='button_get_file_assistant' type="button" value="打开文件助手"/>
+    
+
+<h2 >设备ID</h2>
+    <p>
+    <input id='button_get_phone_model' type="button" value="获取设备ID"/>
+
+<h2 >设备ID</h2>
+<p>
+    <input id='button_get_access_token' type="button" value="获取oatoken"/>
+
+<h2 >测试设置title</h2>
+<p>
+<input id='button_set_real_title' type="button" value="设置title"/onclick='settitle("title123");'>
+
+
+<h2 >测试获取会议ID</h2>
+<p>
+<input id='button_set_meeting_id' type="button" value="获取会议id"/onclick='setMeetingId("2861749810");'>
+    
+<h2 >测试下载文件</h2>
+<p>
+<input id='button_set_file_url' type="button" value="获取文件url"/onclick='setfileurl("http://dev.brc.com.cn:9998/xt/attachmentAction!downFile.mbApp?a=1&id=2861152439&a=1498614520856&access_token=4e28350c093e4035bbe16745e86ea6c8");'>
+    
+<!--
+	<table id="contact">
+        <tr>
+            <td width="100">姓名</td>
+            <td width="100">工号</td>
+            <td width="100">邮箱</td>
+            <td width="100">选择</td>
+            <td width="100">状态</td>
+        </tr>
+    </table>
+-->
+</body></html>

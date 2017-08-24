@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/ConvRecord.m \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/ConvRecord.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/model/LocationModel.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/define/TextMsgExtDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/eCloudDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/UIAdapterUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/model/eCloudNotification.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/config/eCloudConfig.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/AppModeDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/NotificationDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/OpenCtx/IMSDK/define/OpenNotificationDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/StringUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/model/Emp.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/LogUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/IOSSystemDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/FileAssistant/model/UploadFileModel.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/util/talkSessionUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/UserInterfaceUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/define/TalkSessionDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Setting/util/LanUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequest.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestConfig.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIProgressDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASICacheDelegate.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIFormDataRequest.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Robot/model/RobotResponseModel.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/model/CloudFileModel.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/model/ReplyOneMsgModelArc.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/util/MiLiaoUtilArc.h

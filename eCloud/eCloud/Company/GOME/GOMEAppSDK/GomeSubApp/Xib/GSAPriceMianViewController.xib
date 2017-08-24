@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GSAPriceMianViewController">
+            <connections>
+                <outlet property="bottomCameraView" destination="YLn-CV-HZW" id="bLi-No-IDT"/>
+                <outlet property="scrollView" destination="6oS-rF-YR3" id="3TQ-lN-W2S"/>
+                <outlet property="shotBtn" destination="joX-AQ-TmQ" id="8OY-CI-d4c"/>
+                <outlet property="titlesView" destination="bv2-DJ-Nsz" id="dbj-1d-6Vh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6oS-rF-YR3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bv2-DJ-Nsz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="mlU-2Q-sU4"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLn-CV-HZW">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joX-AQ-TmQ">
+                            <rect key="frame" x="161" y="1" width="53" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="53" id="Dq5-uS-79j"/>
+                                <constraint firstAttribute="height" constant="42" id="Rsm-ig-le2"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="拍照-5.png"/>
+                            <connections>
+                                <action selector="shotPhoto:" destination="-1" eventType="touchUpInside" id="DrG-ao-KWj"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="DGo-6R-O7Z"/>
+                        <constraint firstItem="joX-AQ-TmQ" firstAttribute="centerY" secondItem="YLn-CV-HZW" secondAttribute="centerY" id="cFt-Fi-id9"/>
+                        <constraint firstItem="joX-AQ-TmQ" firstAttribute="centerX" secondItem="YLn-CV-HZW" secondAttribute="centerX" id="eJN-2T-P3r"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="6oS-rF-YR3" secondAttribute="trailing" id="3OH-Zm-vZW"/>
+                <constraint firstItem="YLn-CV-HZW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6qU-zW-PR9"/>
+                <constraint firstAttribute="bottom" secondItem="YLn-CV-HZW" secondAttribute="bottom" id="8tA-jZ-Qkg"/>
+                <constraint firstAttribute="trailing" secondItem="bv2-DJ-Nsz" secondAttribute="trailing" id="9iA-dn-iOv"/>
+                <constraint firstItem="6oS-rF-YR3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BFN-Bz-NPu"/>
+                <constraint firstItem="bv2-DJ-Nsz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="H2c-i3-59n"/>
+                <constraint firstItem="bv2-DJ-Nsz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ram-RY-Y8V"/>
+                <constraint firstAttribute="bottom" secondItem="6oS-rF-YR3" secondAttribute="bottom" id="cF2-7E-lpP"/>
+                <constraint firstAttribute="trailing" secondItem="YLn-CV-HZW" secondAttribute="trailing" id="nmY-zQ-rEX"/>
+                <constraint firstItem="6oS-rF-YR3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yee-M9-j7y"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="拍照-5.png" width="53" height="42"/>
+    </resources>
+</document>

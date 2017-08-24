@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LGInvoiceBeginControllerARC">
+            <connections>
+                <outlet property="noMsgImage" destination="obM-jO-eZi" id="3F0-dt-DnJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂时没有相关内容" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdH-Yw-cTS">
+                    <rect key="frame" x="122.5" y="240" width="130" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="Aay-CX-zQn"/>
+                        <constraint firstAttribute="height" constant="10" id="kvS-J4-jeg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsp-qw-s7O">
+                    <rect key="frame" x="90" y="270" width="195" height="42"/>
+                    <color key="backgroundColor" red="0.14117647058823529" green="0.50588235294117645" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="195" id="God-Qe-NRV"/>
+                        <constraint firstAttribute="height" constant="42" id="Qrg-PV-2wV"/>
+                    </constraints>
+                    <state key="normal" title="添加开票信息">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="addInvoice:" destination="-1" eventType="touchUpInside" id="VvA-ya-Rcf"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_msg.png" translatesAutoresizingMaskIntoConstraints="NO" id="obM-jO-eZi">
+                    <rect key="frame" x="142" y="107" width="90" height="110"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="Yfp-zH-eyr"/>
+                        <constraint firstAttribute="height" constant="110" id="uMO-nB-uiG"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="obM-jO-eZi" firstAttribute="centerX" secondItem="xsp-qw-s7O" secondAttribute="centerX" constant="-0.5" id="AVJ-O6-5iP"/>
+                <constraint firstItem="obM-jO-eZi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="107" id="PIB-rw-yNt"/>
+                <constraint firstItem="xdH-Yw-cTS" firstAttribute="top" secondItem="obM-jO-eZi" secondAttribute="bottom" constant="23" id="bLx-0I-PRl"/>
+                <constraint firstItem="obM-jO-eZi" firstAttribute="centerX" secondItem="xdH-Yw-cTS" secondAttribute="centerX" constant="-0.5" id="j9x-he-4uZ"/>
+                <constraint firstItem="xsp-qw-s7O" firstAttribute="top" secondItem="xdH-Yw-cTS" secondAttribute="bottom" constant="20" id="oCq-zr-eMb"/>
+                <constraint firstItem="xsp-qw-s7O" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rD4-J3-nZJ"/>
+            </constraints>
+            <point key="canvasLocation" x="-22" y="-109"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="no_msg.png" width="128" height="128"/>
+    </resources>
+</document>

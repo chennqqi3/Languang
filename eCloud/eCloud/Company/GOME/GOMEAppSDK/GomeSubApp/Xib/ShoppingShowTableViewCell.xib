@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A2323a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="135" id="KGk-i7-Jjw" customClass="ShoppingShowTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="134.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfM-Cg-nEF">
+                        <rect key="frame" x="9" y="10" width="5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDg-3U-tyi">
+                        <rect key="frame" x="29" y="10" width="4.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfW-f6-40P">
+                        <rect key="frame" x="48.5" y="10" width="200" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="Ekj-9e-zVV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="多撒空间大师的撒开的多了撒打算了多少啦多撒了多少啦快到了多撒了肯德基拉萨的" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqo-7Y-OAC">
+                        <rect key="frame" x="9" y="33" width="380" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dfW-f6-40P" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="1an-YN-udy"/>
+                    <constraint firstItem="dfW-f6-40P" firstAttribute="leading" secondItem="oDg-3U-tyi" secondAttribute="trailing" constant="15" id="4VE-2r-cek"/>
+                    <constraint firstItem="gfM-Cg-nEF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="6by-8k-ETs"/>
+                    <constraint firstAttribute="trailing" secondItem="xqo-7Y-OAC" secondAttribute="trailing" constant="9" id="Dww-IK-I54"/>
+                    <constraint firstItem="oDg-3U-tyi" firstAttribute="leading" secondItem="gfM-Cg-nEF" secondAttribute="trailing" constant="15" id="Quk-Ll-9ZQ"/>
+                    <constraint firstItem="gfM-Cg-nEF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="afk-4c-vOq"/>
+                    <constraint firstItem="xqo-7Y-OAC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="fQi-af-qFo"/>
+                    <constraint firstItem="oDg-3U-tyi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="tGp-u6-nqt"/>
+                    <constraint firstItem="xqo-7Y-OAC" firstAttribute="top" secondItem="gfM-Cg-nEF" secondAttribute="bottom" constant="2" id="uNG-ST-5Tp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label2" destination="oDg-3U-tyi" id="jQi-rb-mui"/>
+                <outlet property="label3" destination="dfW-f6-40P" id="069-Pe-jt9"/>
+                <outlet property="lable1" destination="gfM-Cg-nEF" id="oK2-1Y-xhj"/>
+                <outlet property="remarkLabel" destination="xqo-7Y-OAC" id="q5u-Mh-qrV"/>
+            </connections>
+            <point key="canvasLocation" x="72" y="119.5"/>
+        </tableViewCell>
+    </objects>
+</document>

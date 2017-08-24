@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A2323a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CrmMianViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_添加客户.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZIa-mC-znV">
+                    <rect key="frame" x="147.5" y="293.5" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="PWA-LA-FeE"/>
+                        <constraint firstAttribute="width" constant="80" id="nOh-ey-PKg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赶快添加按钮或右上角创建一个客户吧！" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yas-Ct-yGo">
+                    <rect key="frame" x="20" y="381.5" width="335" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6y-hj-P0z">
+                    <rect key="frame" x="30" y="603" width="315" height="44"/>
+                    <color key="backgroundColor" red="0.23707680404186249" green="0.53459954261779785" blue="0.87456482648849487" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ndo-Z8-HHi"/>
+                    </constraints>
+                    <state key="normal" title="新建客户">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZIa-mC-znV" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="6hI-Cs-KZe"/>
+                <constraint firstItem="O6y-hj-P0z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="Hlw-FE-s79"/>
+                <constraint firstItem="ZIa-mC-znV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ml4-gQ-xv3"/>
+                <constraint firstAttribute="trailing" secondItem="Yas-Ct-yGo" secondAttribute="trailing" constant="20" id="RH3-w2-ccI"/>
+                <constraint firstAttribute="trailing" secondItem="O6y-hj-P0z" secondAttribute="trailing" constant="30" id="Rbx-1V-iZQ"/>
+                <constraint firstItem="Yas-Ct-yGo" firstAttribute="top" secondItem="ZIa-mC-znV" secondAttribute="bottom" constant="8" id="iGP-R9-NpL"/>
+                <constraint firstAttribute="bottom" secondItem="O6y-hj-P0z" secondAttribute="bottom" constant="20" id="od7-Cp-fwW"/>
+                <constraint firstItem="Yas-Ct-yGo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="ziQ-iw-0By"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_添加客户.png" width="56" height="56"/>
+    </resources>
+</document>

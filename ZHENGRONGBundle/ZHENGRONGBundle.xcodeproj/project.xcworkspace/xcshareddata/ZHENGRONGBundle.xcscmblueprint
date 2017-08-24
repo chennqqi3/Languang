@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6BBACED4-2CF7-4B1E-94E7-969DF097489F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : "iPhone2017\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZHENGRONGBundle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZHENGRONGBundle\/ZHENGRONGBundle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn.sxit.com.cn:4002\/ecloud",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937"
+    }
+  ]
+}

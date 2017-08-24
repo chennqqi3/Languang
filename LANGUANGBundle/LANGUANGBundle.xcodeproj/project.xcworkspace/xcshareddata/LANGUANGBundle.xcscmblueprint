@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D2E20E67-5D2D-4DB1-96C8-4C5D7038BFCE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937" : "iPhone2017\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LANGUANGBundle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LANGUANGBundle\/LANGUANGBundle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn.sxit.com.cn:4002\/ecloud",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30c7f4fa-015b-11e2-98c6-f3f135a61f5f++4937"
+    }
+  ]
+}

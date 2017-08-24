@@ -1,0 +1,15 @@
+/* 
+  AppLocalized.strings
+  eCloud
+
+  Created by shisuping on 15-9-2.
+  Copyright (c) 2015年  lyong. All rights reserved.
+*/
+
+"input_account" = "请输入OA账号";
+"input_password" = "请输入OA密码";
+
+"main_my" = "首页";
+"main_chats" = "消息";
+"main_settings"= "微官网";
+"main_app"= "应用";

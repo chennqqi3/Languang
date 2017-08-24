@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShareEntranceViewController">
+            <connections>
+                <outlet property="noTicketView" destination="CDk-TZ-twb" id="fl8-h7-AOJ"/>
+                <outlet property="tableView" destination="HSZ-D9-gha" id="Eax-KV-eyv"/>
+                <outlet property="topView" destination="j6f-gg-hSJ" id="Gyz-vs-HIb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CDk-TZ-twb" userLabel="NoTicketView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coupon.png" translatesAutoresizingMaskIntoConstraints="NO" id="z1H-2x-HgT">
+                            <rect key="frame" x="167.5" y="130" width="39" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="fb2-PL-PJp"/>
+                                <constraint firstAttribute="width" constant="39" id="nSi-BR-HLc"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="近期没有活动哦～请持续关注" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0r0-8v-cZN">
+                            <rect key="frame" x="74.5" y="194" width="225.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.85885953719999997" green="0.85885953719999997" blue="0.85885953719999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="0r0-8v-cZN" firstAttribute="centerX" secondItem="CDk-TZ-twb" secondAttribute="centerX" id="FNk-Tj-dJE"/>
+                        <constraint firstItem="0r0-8v-cZN" firstAttribute="top" secondItem="z1H-2x-HgT" secondAttribute="bottom" constant="20" id="rFT-hP-qYC"/>
+                        <constraint firstItem="z1H-2x-HgT" firstAttribute="centerX" secondItem="CDk-TZ-twb" secondAttribute="centerX" id="ryn-Th-A7V"/>
+                        <constraint firstItem="z1H-2x-HgT" firstAttribute="top" secondItem="CDk-TZ-twb" secondAttribute="top" constant="130" id="udL-YX-N0J"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j6f-gg-hSJ">
+                    <rect key="frame" x="0.0" y="12" width="375" height="60"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_share_News.png" translatesAutoresizingMaskIntoConstraints="NO" id="EOi-eD-nNQ">
+                            <rect key="frame" x="20" y="21.5" width="20" height="18"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="18" id="D6w-Ld-QHN"/>
+                                <constraint firstAttribute="width" constant="20" id="thf-l6-xk2"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="将内购会入场券分享给你的朋友，朋友购物，你赚提成，分享越多，提成越多!" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xll-Vh-hFu">
+                            <rect key="frame" x="45" y="9.5" width="310" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Xll-Vh-hFu" firstAttribute="centerY" secondItem="j6f-gg-hSJ" secondAttribute="centerY" id="Iea-Pa-78l"/>
+                        <constraint firstAttribute="trailing" secondItem="Xll-Vh-hFu" secondAttribute="trailing" constant="20" id="UVp-fM-5So"/>
+                        <constraint firstItem="Xll-Vh-hFu" firstAttribute="leading" secondItem="EOi-eD-nNQ" secondAttribute="trailing" constant="5" id="kDQ-Sf-RVT"/>
+                        <constraint firstItem="EOi-eD-nNQ" firstAttribute="leading" secondItem="j6f-gg-hSJ" secondAttribute="leading" constant="20" id="n0N-Hl-h7X"/>
+                        <constraint firstAttribute="height" constant="60" id="oU5-Vm-VR3"/>
+                        <constraint firstItem="EOi-eD-nNQ" firstAttribute="centerY" secondItem="j6f-gg-hSJ" secondAttribute="centerY" id="zId-8X-ZQl"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HSZ-D9-gha">
+                    <rect key="frame" x="20" y="72" width="335" height="595"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.85885953717898822" green="0.85885953717898822" blue="0.85885953717898822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HSZ-D9-gha" secondAttribute="trailing" constant="20" id="4DR-ec-bIC"/>
+                <constraint firstItem="HSZ-D9-gha" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="6CU-TP-jhX"/>
+                <constraint firstAttribute="bottom" secondItem="HSZ-D9-gha" secondAttribute="bottom" id="Crf-Ux-zIB"/>
+                <constraint firstAttribute="bottom" secondItem="CDk-TZ-twb" secondAttribute="bottom" id="FeH-EQ-VJS"/>
+                <constraint firstItem="j6f-gg-hSJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="12" id="JLu-CS-I5H"/>
+                <constraint firstItem="CDk-TZ-twb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XEd-lD-vgV"/>
+                <constraint firstAttribute="trailing" secondItem="CDk-TZ-twb" secondAttribute="trailing" id="a0L-JK-Mmd"/>
+                <constraint firstAttribute="trailing" secondItem="j6f-gg-hSJ" secondAttribute="trailing" id="beU-AP-FLc"/>
+                <constraint firstItem="HSZ-D9-gha" firstAttribute="top" secondItem="j6f-gg-hSJ" secondAttribute="bottom" id="dNu-ki-MLx"/>
+                <constraint firstItem="CDk-TZ-twb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nYW-Xx-lXx"/>
+                <constraint firstItem="j6f-gg-hSJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qhk-Iz-tzR"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="coupon.png" width="39" height="44"/>
+        <image name="icon_share_News.png" width="19" height="17"/>
+    </resources>
+</document>

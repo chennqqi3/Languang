@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Csair/advancedSearch/zoneChooseViewController.m \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Csair/advancedSearch/zoneChooseViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/StringUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Org/model/Emp.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Csair/advancedSearch/model/citiesObject.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Csair/advancedSearch/AdvancedSearchViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Csair/mass/controller/broadcastChooseMemberViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/UIAdapterUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/eCloudDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/model/eCloudNotification.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/config/eCloudConfig.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/AppModeDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/NotificationDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/OpenCtx/IMSDK/define/OpenNotificationDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/util/LogUtil.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/Common/define/IOSSystemDefine.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Csair/advancedSearch/countryChooseViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Csair/advancedSearch/provinceChooseViewController.h \
+  /Users/lidianchao/Desktop/碧桂园/eCloud/eCloud/General/Option/Csair/advancedSearch/cityChooseViewController.h

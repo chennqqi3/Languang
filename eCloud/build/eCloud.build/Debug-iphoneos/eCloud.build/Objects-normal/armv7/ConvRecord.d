@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/ConvRecord.m \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/ConvRecord.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/model/LocationModel.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/define/TextMsgExtDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/eCloudDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/UIAdapterUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/model/eCloudNotification.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/config/eCloudConfig.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/AppModeDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/NotificationDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/OpenCtx/IMSDK/define/OpenNotificationDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/StringUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Org/model/Emp.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/LogUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/IOSSystemDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/FileAssistant/model/UploadFileModel.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/util/talkSessionUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/UserInterfaceUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/define/TalkSessionDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Setting/util/LanUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequest.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestConfig.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIProgressDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASICacheDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIFormDataRequest.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Option/Robot/model/RobotResponseModel.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/model/CloudFileModel.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/model/ReplyOneMsgModelArc.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/util/MiLiaoUtilArc.h

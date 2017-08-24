@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/pch/eCloud-Prefix.pch \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Setting/controller/chatBackgroudViewController.m \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Setting/controller/chatBackgroudViewController.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryViewController.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryPhotoView.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/imagePreView/FGalleryPhoto.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/model/ConvRecord.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Setting/util/ChatBackgroundUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/StringUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Org/model/Emp.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/controller/talkSessionViewController.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequest.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestConfig.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIHTTPRequestDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIProgressDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASICacheDelegate.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/AudioRecorder/CL_VoiceEngine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/AudioRecorder/CL_AudioRecorder.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASINetworkQueue.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/amrToWav/amrToWavMothod.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ASIHTTPRequest2.0/ASIFormDataRequest.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ImagePicker/PictureManager.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ImagePicker/ELCImagePickerController.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/ImagePicker/ELCAssetTablePicker.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/FileAssistant/controller/LocaLFilesViewController.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/FileAssistant/controller/FileListViewController.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/ThirdLib/DropUpMenu/IM_MenuView.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/util/talkSessionUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/IOSSystemDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/define/UserInterfaceUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Conversation/TalkSession/define/TalkSessionDefine.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/UIAdapterUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/ImageUtil.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/Common/util/UserDefaults.h \
+  /Users/davewilliam/Desktop/碧桂园/eCloud/eCloud/General/Setting/controller/chooseChatBackGroudViewController.h

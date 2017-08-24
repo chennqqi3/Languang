@@ -1,0 +1,19 @@
+/* 
+  AppLocalized.strings
+  eCloud
+
+  Created by Alex L on 16/12/1.
+  Copyright © 2016年  lyong. All rights reserved.
+*/
+
+"main_my" = "工作";
+"main_settings" = "我";
+
+"contact_allReaded" = "清除新消息提示";
+
+"select_all" = "全选";
+"un_select_all" = "全取";
+
+//水印显示的内容格式
+"water_mark_format" = "国美电器有限公司\n持有人:%@\n%@";
+

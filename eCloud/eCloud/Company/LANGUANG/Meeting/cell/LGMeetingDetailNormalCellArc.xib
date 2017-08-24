@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="67" id="xrv-GD-Zfu" customClass="LGMeetingDetailNormalCellArc">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xrv-GD-Zfu" id="dmg-5c-gXn">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muy-nc-rUh">
+                        <rect key="frame" x="12" y="16" width="92" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="92" id="2WI-zZ-tuD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.64086094798657722" green="0.64112311241610742" blue="0.63907822986577179" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQc-h2-d4L">
+                        <rect key="frame" x="119" y="22.5" width="244" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Muy-nc-rUh" firstAttribute="top" secondItem="dmg-5c-gXn" secondAttribute="topMargin" constant="8" id="5vk-u2-6Yi"/>
+                    <constraint firstItem="WQc-h2-d4L" firstAttribute="leading" secondItem="Muy-nc-rUh" secondAttribute="trailing" constant="15" id="Qr4-Vf-aHa"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="WQc-h2-d4L" secondAttribute="trailing" constant="4" id="cQr-Ew-VUS"/>
+                    <constraint firstItem="WQc-h2-d4L" firstAttribute="centerY" secondItem="dmg-5c-gXn" secondAttribute="centerY" id="dF0-31-edD"/>
+                    <constraint firstItem="Muy-nc-rUh" firstAttribute="leading" secondItem="dmg-5c-gXn" secondAttribute="leadingMargin" constant="4" id="f5a-DM-zbk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="Muy-nc-rUh" id="ezB-XX-Qxh"/>
+                <outlet property="valueLabel" destination="WQc-h2-d4L" id="t5h-E8-wcY"/>
+            </connections>
+            <point key="canvasLocation" x="3" y="-127"/>
+        </tableViewCell>
+    </objects>
+</document>
